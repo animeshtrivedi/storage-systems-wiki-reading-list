@@ -1,5 +1,5 @@
 ## Welcome to the storage-systems wiki!
-We will collect and grow the reading list for the Storage Systems class (https://animeshtrivedi.github.io/course-stosys/) at VU Amsterdam. 
+We will collect and grow the reading list for the Storage Systems class (https://animeshtrivedi.github.io/course-stosys/) at VU Amsterdam. ***All lecture slides are publically available.***
 
 Hands-on wiki with commands and setup is available here: https://github.com/animeshtrivedi/storage-systems-wiki-reading-list/wiki
 
@@ -7,15 +7,17 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
 
 ## Reading list 
 
-### NVM storage 
+### NVM storage and device-level details 
   * 
-### Flash FTL and GC 
+
+### Flash FTL designs, patterns, and GC designs 
   * 
+
 ### Host interfacing, OS and Storage I/O Stack  
   * Theano Stavrinos, Daniel S. Berger, Ethan Katz-Bassett, and Wyatt Lloyd. 2021. Don't be a blockhead: zoned namespaces make work on conventional SSDs obsolete. In Proceedings of the Workshop on Hot Topics in Operating Systems (HotOS '21). Association for Computing Machinery, New York, NY, USA, 144–151. https://doi.org/10.1145/3458336.3465300
      * ZNS is the new and exciting interface for NVM storage. It is also quite fundamental as the paper argues that it solves or makes old problems with flash useless. A good fun read (plus, summarizes a decade worth of research effort in managing flash)  
  
-### Flash Scheduling 
+### Flash I/O Scheduling and quality-of-service/multi-tenancy 
   * 
 
 ### File Systems 
@@ -26,24 +28,32 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
      * A small write up summarizing (2020) the current popular indexing structures about KV data structures 
   * Designing Access Methods: The RUM Conjecture (Read, Update, and Memory): https://stratos.seas.harvard.edu/files/stratos/files/rum.pdf
      * A good fundamental work that discusses that a single data structure cannot provide most optimal performance for all three types of operations 
+
+### Storage Virtualization 
+  *  
+
+### Reliability and failures studies  
+  * 
+
+### Programmable storage, acceleration, offloading, computational storage  
+  * 
+
+### Persistent Memories 
+  * 
+
+### Netwoked/distributed Flash 
+  * 
+
+### Distributed/Cloud systems 
+  * 
+
+### NVM stroage and Energy consumption 
+  * 
+
+### Good surveys 
+  * Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.   
   * Athanasios Fevgas, Leonidas Akritidis, Panayiotis Bozanis, and Yannis Manolopoulos. 2020. Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
      * One of the most comprehensive and well-written surveys on indexing data structures on flash storage 
 
-### Virtualization 
-* 
-
-### Reliability and failures study 
-* 
-
-### Programmable storage 
-* 
-
-### Persistent Memories 
-* 
-### Netwoked/distributed Flash 
-
-### Distributed/Cloud systems 
-
-### Good surveys 
 
 ### Misc. 
