@@ -1,6 +1,8 @@
 ## Welcome to the storage-systems wiki!
 We will collect and grow the reading list for the Storage Systems class (https://animeshtrivedi.github.io/course-stosys/) at VU Amsterdam. 
 
+Hands-on wiki with commands and setup is available here: https://github.com/animeshtrivedi/storage-systems-wiki-reading-list/wiki
+
 **Contributions:** please open a pull request with 1-2 line description of the paper! 
 
 ## Reading list 
