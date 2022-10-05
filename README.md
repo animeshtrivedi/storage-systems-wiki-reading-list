@@ -19,6 +19,7 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
   * FlatFlash: Exploiting the Byte-Accessibility of SSDs within a Unified Memory-Storage Hierarchy, ASPLOS 2019, https://dl-acm-org.vu-nl.idm.oclc.org/doi/abs/10.1145/3297858.3304061
 
 ### Flash I/O Scheduling and quality-of-service/multi-tenancy 
+  * BlockFlex: Enabling Storage Harvesting with Software-Defined Flash in Modern Cloud Platforms, OSDI 2022. https://www.usenix.org/conference/osdi22/presentation/reidys 
   * 
 
 ### File Systems 
@@ -40,7 +41,8 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
   * 
 
 ### Persistent Memories 
-  * 
+  * Direct Access, High-Performance Memory Disaggregation with DirectCXL, https://www.usenix.org/conference/atc22/presentation/gouk
+  * FlatFS: Flatten Hierarchical File System Namespace on Non-volatile Memories, https://www.usenix.org/conference/atc22/presentation/cai 
 
 ### Netwoked/distributed Flash 
   * 
@@ -71,4 +73,5 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
      * One of the most comprehensive and well-written surveys on indexing data structures on flash storage 
 
 
-### Misc. 
+### New systems architectures 
+  * FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs https://www.usenix.org/system/files/atc22-wang-zeke.pdf 
