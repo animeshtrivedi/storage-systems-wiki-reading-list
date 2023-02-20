@@ -49,8 +49,8 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
 ### Netwoked/distributed Flash 
   * 
 
-### Distributed/Cloud systems 
-  * 
+### Distributed/Cloud/Operating systems 
+  * Reducing Minor Page Fault Overheads through Enhanced Page Walker, https://dl.acm.org/doi/full/10.1145/3547142 
 
 ### NVM stroage and Energy consumption 
   * Bryan Harris and Nihat Altiparmak. When poll is more energy efficient than interrupt. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems, HotStorage ’22, page 59–64, New York, NY, USA, 2022. Association for Computing Machinery.  https://www.hotstorage.org/2022/slides/hotstorage22-paper44-presentation_slides.pdf
