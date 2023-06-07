@@ -20,7 +20,10 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
 
 ### Flash I/O Scheduling and quality-of-service/multi-tenancy 
   * BlockFlex: Enabling Storage Harvesting with Software-Defined Flash in Modern Cloud Platforms, OSDI 2022. https://www.usenix.org/conference/osdi22/presentation/reidys 
-  * 
+  * FLIN: https://ieeexplore.ieee.org/abstract/document/8416843
+  * D2FQ: https://www.usenix.org/system/files/fast21-woo.pdf
+  * blk-switch: https://www.usenix.org/system/files/osdi21-hwang.pdf
+  * I/O Schedulers for Proportionality and Stability on Flash-Based SSDs in Multi-Tenant Environments
 
 ### File Systems 
   * 
@@ -32,7 +35,19 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
      * A good fundamental work that discusses that a single data structure cannot provide most optimal performance for all three types of operations 
 
 ### Storage Virtualization 
-  *  
+  *  MDev-NVMe (mediated passthrough): https://www.usenix.org/system/files/conference/atc18/atc18-peng.pdf
+  *  Analyzing, modeling, and provisioning QoS for NVMe ssds: https://ieeexplore.ieee.org/abstract/document/8603171/
+  *  Spdk vhost-nvme (user-space): Accelerating i/os in virtual machines on nvme ssds via user space vhost target: https://ieeexplore.ieee.org/abstract/document/8567374/
+  *  FlashBlox: https://www.usenix.org/system/files/conference/fast17/fast17_huang.pdf
+
+### Storage emulation/simulation
+* MQsim (simulator): https://www.usenix.org/system/files/conference/fast18/fast18-tavakkol.pdf
+* FEMU (emulator): https://www.usenix.org/system/files/conference/fast18/fast18-li.pdf
+* NVMeVirt (emulator): https://www.usenix.org/conference/fast23/presentation/kim-sang-hoon
+* Amber https://ieeexplore.ieee.org/abstract/document/8574562  and for ZNS: https://ieeexplore.ieee.org/abstract/document/996440
+* Wear distributions in FF-SSD: https://dl.acm.org/doi/abs/10.1145/3538643.3539757 
+* Nameless writes had an emulator. How does it work? https://www.usenix.org/legacy/event/fast12/tech/full_papers/Zhang2-7-12.pdf 
+* Goliath allows evaluating large (1TB at that time) workloads on small disks without performance gaps.
 
 ### Reliability and failures studies  
   * 
@@ -46,13 +61,13 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
   * Poseidon: Safe, Fast and Scalable Persistent Memory Allocator (Middleware, 2020), https://dl.acm.org/doi/10.1145/3423211.3425671 
   * Persistent State Machines for Recoverable In-memory Storage Systems with NVRam,  https://www.usenix.org/conference/osdi20/presentation/zhang-wen
 
-### Netwoked/distributed Flash 
+### Networked/distributed Flash 
   * 
 
 ### Distributed/Cloud/Operating systems 
   * Reducing Minor Page Fault Overheads through Enhanced Page Walker, https://dl.acm.org/doi/full/10.1145/3547142 
 
-### NVM stroage and Energy consumption 
+### NVM storage and Energy consumption 
   * Bryan Harris and Nihat Altiparmak. When poll is more energy efficient than interrupt. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems, HotStorage ’22, page 59–64, New York, NY, USA, 2022. Association for Computing Machinery.  https://www.hotstorage.org/2022/slides/hotstorage22-paper44-presentation_slides.pdf
 
   * Bryan Harris and Nihat Altiparmak. Ultra‐low latency ssds’ impact on overall energy efficiency. In Proceedings of the 12th USENIX Conference on Hot Topics in Storage and File Systems, HotStorage’20, USA, 2020. USENIX Association. https://www.usenix.org/system/files/hotstorage20-paper61-slides-harris.pdf
@@ -66,19 +81,12 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
   * Jalal Mostafa, Sara Wehbi, Suren Chilingaryan, Andreas Kopmann. 2022. SciTS: A Benchmark for Time-Series Databases in Scientific Experiments and Industrial Internet of Things. https://arxiv.org/abs/2204.09795v2
       * Paper describing a system for benchmarking the performance of timeseries databases. The paper generates data used to benchmark the performance of insertion and uses a few queries to test the performance of the querying engines.
 
-### A selection of storage related surveys 
-  * Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.   
-  * Athanasios Fevgas, Leonidas Akritidis, Panayiotis Bozanis, and Yannis Manolopoulos. 2020. Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
-     * One of the most comprehensive and well-written surveys on indexing data structures on flash storage 
-  * http://madsys.cs.tsinghua.edu.cn/publications/TPDS2022-ma.pdf, a Survey of Storage Systems in the RDMA Era. 
-  * Survey of Distributed File System Design Choices, https://dl.acm.org/doi/pdf/10.1145/3465405
-
-
 ### New systems architectures 
   * FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs https://www.usenix.org/system/files/atc22-wang-zeke.pdf 
 
-### ZNS papers
-#### Explanations, research directions and ZNS extensions
+### New flash storage interfaces
+
+#### ZNS: Explanations, research directions and ZNS extensions
 * Bjørling, M., Aghayev, A., Holmberg, H., Ramesh, A., Le Moal, D., Ganger, G. R., & Amvrosiadis, G. (2021). ZNS: Avoiding the Block Interface Tax for Flash-based SSDs. In 2021 USENIX Annual Technical Conference (USENIX ATC 21) (pp. 689-703). https://www.usenix.org/conference/atc21/presentation/bjorling
 . An explanation of ZNS and what it is good for.
 * Bjørling, M. (2019, February). From open-channel SSDs to zoned namespaces. In Proc. Linux Storage Filesyst. Conf.(Vault) (Vol. 1). https://www.usenix.org/sites/default/files/conference/protected-files/nsdi19_slides_bjorling.pdf The transition from open-channel to ZNS.
@@ -90,10 +98,22 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
 * Bae, H., Kim, J., Kwon, M., & Jung, M. (2022, June). What you can't forget: exploiting parallelism for zoned namespaces. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (pp. 79-85). https://dl.acm.org/doi/abs/10.1145/3538643.3539744 Discussion of ZNS benefits and how ZNS zone-to-zone relationships affect internal parallelism/performance, also how schedulers can solve such isssues.
 * Zoned Namespaces Use Cases, Standard and Linux Ecosystem. Samsung, 2020 SNIA. https://www.snia.org/sites/default/files/SDCEMEA/2020/3%20-%20Javier%20Gonzalez%20Zoned%20namespacese.PDF 
 
-#### Specific applications/software modified for ZNS
+#### ZNS: Specific applications/software modified for ZNS
 * Choi, G., Lee, K., Oh, M., Choi, J., Jhin, J., & Oh, Y. (2020). A New LSM-style Garbage Collection Scheme for ZNS SSDs. In 12th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage 20). https://www.usenix.org/conference/hotstorage20/presentation/choi
 * Oh, G., Yang, J., & Ahn, S. (2021). Efficient Key-Value Data Placement for ZNS SSD. Applied Sciences, 11(24), 11842. https://www.mdpi.com/2076-3417/11/24/11842
 * Jung, J., & Shin, D. (2022, June). Lifetime-leveling LSM-tree compaction for ZNS SSD. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (pp. 100-105). https://dl.acm.org/doi/abs/10.1145/3538643.3539741
 * Bergman, S., Cassel, N., Bjørling, M., & Silberstein, M. (2022). ZNSwap:un-Block your Swap. In 2022 USENIX Annual Technical Conference (USENIX ATC 22) (pp. 1-18). https://www.usenix.org/conference/atc22/presentation/bergman
 * Lee, H. R., Lee, C. G., Lee, S., & Kim, Y. (2022, June). Compaction-aware zone allocation for LSM based key-value store on ZNS SSDs. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (pp. 93-99). https://dl.acm.org/doi/10.1145/3538643.3539743
 * Im, M., Kang, K., & Yeom, H. (2022, November). Accelerating RocksDB for small-zone ZNS SSDs by parallel I/O mechanism. In Proceedings of the 23rd International Middleware Conference: Industrial Track (pp. 15-21). https://dl.acm.org/doi/abs/10.1145/3564695.3564774
+
+### Other interfaces
+* OCSSD: https://www.usenix.org/system/files/conference/fast17/fast17-bjorling.pdf
+* KV-SSDs: https://ieeexplore.ieee.org/abstract/document/7920840/
+* SALSA (FTL to host): https://ieeexplore.ieee.org/abstract/document/8526893/
+
+### A selection of storage related surveys 
+  * Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.   
+  * Athanasios Fevgas, Leonidas Akritidis, Panayiotis Bozanis, and Yannis Manolopoulos. 2020. Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
+     * One of the most comprehensive and well-written surveys on indexing data structures on flash storage 
+  * http://madsys.cs.tsinghua.edu.cn/publications/TPDS2022-ma.pdf, a Survey of Storage Systems in the RDMA Era. 
+  * Survey of Distributed File System Design Choices, https://dl.acm.org/doi/pdf/10.1145/3465405
