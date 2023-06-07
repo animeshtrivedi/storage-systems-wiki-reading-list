@@ -106,7 +106,7 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
 * Lee, H. R., Lee, C. G., Lee, S., & Kim, Y. (2022, June). Compaction-aware zone allocation for LSM based key-value store on ZNS SSDs. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (pp. 93-99). https://dl.acm.org/doi/10.1145/3538643.3539743
 * Im, M., Kang, K., & Yeom, H. (2022, November). Accelerating RocksDB for small-zone ZNS SSDs by parallel I/O mechanism. In Proceedings of the 23rd International Middleware Conference: Industrial Track (pp. 15-21). https://dl.acm.org/doi/abs/10.1145/3564695.3564774
 
-### Other interfaces
+#### Other interfaces
 * OCSSD: https://www.usenix.org/system/files/conference/fast17/fast17-bjorling.pdf
 * KV-SSDs: https://ieeexplore.ieee.org/abstract/document/7920840/
 * SALSA (FTL to host): https://ieeexplore.ieee.org/abstract/document/8526893/
