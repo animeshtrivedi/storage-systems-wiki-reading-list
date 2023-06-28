@@ -32,7 +32,8 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
   * Stratos Idreos and Mark Callaghan. 2020. Key-Value Storage Engines. In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (SIGMOD '20). Association for Computing Machinery, New York, NY, USA, 2667–2672. https://doi.org/10.1145/3318464.3383133 
      * A small write up summarizing (2020) the current popular indexing structures about KV data structures 
   * Designing Access Methods: The RUM Conjecture (Read, Update, and Memory): https://stratos.seas.harvard.edu/files/stratos/files/rum.pdf
-     * A good fundamental work that discusses that a single data structure cannot provide most optimal performance for all three types of operations 
+     * A good fundamental work that discusses that a single data structure cannot provide most optimal performance for all three types of operations
+  * https://www.vldb.org/pvldb/vol14/p2216-sarkar.pdf, Constructing and Analyzing the LSM Compaction Design Space 
 
 ### Storage Virtualization 
   *  MDev-NVMe (mediated passthrough): https://www.usenix.org/system/files/conference/atc18/atc18-peng.pdf
