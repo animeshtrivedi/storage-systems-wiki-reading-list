@@ -78,6 +78,8 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
 
   * Jayashree Mohan, Dhathri Purohith, Mathew Halpern, Vijay Chidambaram, and Vijay Janapa Reddi. Storage on your smartphone uses more energy than you think. In Proceedings of the 9th USENIX Conference on Hot Topics in Storage and File Systems, HotStorage’17, page 9, USA, 2017. USENIX Association.
 
+  * Kargar, Saeed and Nawab, Faisal. Hamming Tree: The Case for Energy-Aware Indexing for NVMs. In Proceedings of the ACM on Management of Data. SIGMOD'2023. ACM New York, NY, USA, 2023. 
+
 ### Timeseries databases
   * Jalal Mostafa, Sara Wehbi, Suren Chilingaryan, Andreas Kopmann. 2022. SciTS: A Benchmark for Time-Series Databases in Scientific Experiments and Industrial Internet of Things. https://arxiv.org/abs/2204.09795v2
       * Paper describing a system for benchmarking the performance of timeseries databases. The paper generates data used to benchmark the performance of insertion and uses a few queries to test the performance of the querying engines.
