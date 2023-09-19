@@ -24,6 +24,7 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
   * D2FQ: https://www.usenix.org/system/files/fast21-woo.pdf
   * blk-switch: https://www.usenix.org/system/files/osdi21-hwang.pdf
   * I/O Schedulers for Proportionality and Stability on Flash-Based SSDs in Multi-Tenant Environments
+  * FastResponse: https://dl.acm.org/doi/pdf/10.1145/3524059.3532378
 
 ### File Systems 
   * 
