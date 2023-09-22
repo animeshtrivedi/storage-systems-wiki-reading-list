@@ -3,6 +3,8 @@ We will collect and grow the reading list for the Storage Systems class (https:/
 
 Hands-on wiki with commands and setup is available here: https://github.com/animeshtrivedi/storage-systems-wiki-reading-list/wiki
 
+We are also collecting nice surveys we can find: https://github.com/stonet-research/storage-systems-wiki-reading-list#a-selection-of-storage-related-surveys 
+
 **Contributions:** please open a pull request with 1-2 line description of the paper! 
 
 ## Reading list 
@@ -34,7 +36,9 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
      * A small write up summarizing (2020) the current popular indexing structures about KV data structures 
   * Designing Access Methods: The RUM Conjecture (Read, Update, and Memory): https://stratos.seas.harvard.edu/files/stratos/files/rum.pdf
      * A good fundamental work that discusses that a single data structure cannot provide most optimal performance for all three types of operations
-  * https://www.vldb.org/pvldb/vol14/p2216-sarkar.pdf, Constructing and Analyzing the LSM Compaction Design Space 
+  * https://www.vldb.org/pvldb/vol14/p2216-sarkar.pdf, Constructing and Analyzing the LSM Compaction Design Space
+  * DComp: Efficient Offload of LSM-tree Compaction with Data Processing Units, https://dl.acm.org/doi/abs/10.1145/3605573.3605633 
+
 
 ### Storage Virtualization 
   *  MDev-NVMe (mediated passthrough): https://www.usenix.org/system/files/conference/atc18/atc18-peng.pdf
@@ -116,8 +120,17 @@ Hands-on wiki with commands and setup is available here: https://github.com/anim
 * SALSA (FTL to host): https://ieeexplore.ieee.org/abstract/document/8526893/
 
 ### A selection of storage related surveys 
-  * Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.   
+[2023] 
+  * A Survey on the Integration of NAND Flash Storage in the Design of File Systems and the Host Storage Software Stack, Nick Tehrany, Krijn Doekemeijer, Animesh Trivedi, https://arxiv.org/abs/2307.11866 
+
+[2022]
+  * Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.
+  * Persistent Memory File Systems: A Survey, Wiebe van Breukelen, https://drive.google.com/file/d/1EF-tTEDwYYoFOzywlC-STLqHYlGmyGDx/view
+  * http://madsys.cs.tsinghua.edu.cn/publications/TPDS2022-ma.pdf, a Survey of Storage Systems in the RDMA Era.
+  * Survey of Distributed File System Design Choices, https://dl.acm.org/doi/pdf/10.1145/3465405
+
+[prior] 
   * Athanasios Fevgas, Leonidas Akritidis, Panayiotis Bozanis, and Yannis Manolopoulos. 2020. Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
      * One of the most comprehensive and well-written surveys on indexing data structures on flash storage 
-  * http://madsys.cs.tsinghua.edu.cn/publications/TPDS2022-ma.pdf, a Survey of Storage Systems in the RDMA Era. 
-  * Survey of Distributed File System Design Choices, https://dl.acm.org/doi/pdf/10.1145/3465405
+
+  
