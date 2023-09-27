@@ -119,6 +119,9 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 * KV-SSDs: https://ieeexplore.ieee.org/abstract/document/7920840/
 * SALSA (FTL to host): https://ieeexplore.ieee.org/abstract/document/8526893/
 
+### SNIA/NVMe weblinks 
+  * 2023: FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf, https://nvmexpress.org/wp-content/uploads/FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf
+    
 ### A selection of storage related surveys 
 [2023] 
   * A Survey on the Integration of NAND Flash Storage in the Design of File Systems and the Host Storage Software Stack, Nick Tehrany, Krijn Doekemeijer, Animesh Trivedi, https://arxiv.org/abs/2307.11866 
