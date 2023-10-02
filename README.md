@@ -58,8 +58,8 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 ### Reliability and failures studies  
   * 
 
-### Programmable storage, acceleration, offloading, computational storage  
-  * 
+### Programmable storage, acceleration, offloading, computational storage, workload-specific storage   
+  * Kiran Kumar Matam, Gunjae Koo, Haipeng Zha, Hung-Wei Tseng, and Murali Annavaram. 2019. GraphSSD: graph semantics aware SSD. In Proceedings of the 46th International Symposium on Computer Architecture (ISCA '19). Association for Computing Machinery, New York, NY, USA, 116–128. https://doi.org/10.1145/3307650.3322275 
 
 ### Performance (mostly with OS/APIs) 
   * Diego Didona, Jonas Pfefferle, Nikolas Ioannou, Bernard Metzler, and Animesh Trivedi. 2022. Understanding modern storage APIs: a systematic study of libaio, SPDK, and io_uring. In Proceedings of the 15th ACM International Conference on Systems and Storage (SYSTOR '22). Association for Computing Machinery, New York, NY, USA, 120–127. https://doi.org/10.1145/3534056.3534945
