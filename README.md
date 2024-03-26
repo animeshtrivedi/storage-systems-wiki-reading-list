@@ -153,6 +153,13 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Bin Yang, Wei Xue, Tianyu Zhang, Shichao Liu, Xiaosong Ma, Xiyang Wang, and Weiguo Liu. 2023. End-to-end I/O Monitoring on Leading Supercomputers. ACM Trans. Storage 19, 1, Article 3 (February 2023), 35 pages. https://doi.org/10.1145/3568425 (NSDI: https://www.usenix.org/conference/nsdi19/presentation/yang)
   * V. Tarasov, S. Kumar, J. Ma, D. Hildebrand, A. Povzner, G. Kuenning, and E. Zadok. 2012. Extracting flexible, replayable models from large block traces. In Proceedings of the 10th USENIX conference on File and Storage Technologies (FAST'12). USENIX Association, USA, 22. https://static.usenix.org/events/fast12/tech/full_papers/Tarasov.pdf 
     
+### RAID, Compression, De-duplication 
+  * FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays, https://www.usenix.org/conference/fast21/presentation/jiang (FAST 2021)
+  * StRAID: Stripe-threaded Architecture for Parity-based RAIDs with Ultra-fast SSDs, https://www.usenix.org/conference/atc22/presentation/wang-shucheng (USENIX 2022)
+  * Shushu Yi, Yanning Yang, Yunxiao Tang, Zixuan Zhou, Junzhe Li, Chen Yue, Myoungsoo Jung, and Jie Zhang. 2022. ScalaRAID: optimizing linux software RAID system for next-generation storage. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '22). Association for Computing Machinery, New York, NY, USA, 119–125. https://doi.org/10.1145/3538643.3539740
+  * 
+
+
 ### A selection of storage related surveys 
 [2023] 
   * A Survey on the Integration of NAND Flash Storage in the Design of File Systems and the Host Storage Software Stack, Nick Tehrany, Krijn Doekemeijer, Animesh Trivedi, https://arxiv.org/abs/2307.11866 
