@@ -126,6 +126,13 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 * Bergman, S., Cassel, N., Bjørling, M., & Silberstein, M. (2022). ZNSwap:un-Block your Swap. In 2022 USENIX Annual Technical Conference (USENIX ATC 22) (pp. 1-18). https://www.usenix.org/conference/atc22/presentation/bergman
 * Lee, H. R., Lee, C. G., Lee, S., & Kim, Y. (2022, June). Compaction-aware zone allocation for LSM based key-value store on ZNS SSDs. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (pp. 93-99). https://dl.acm.org/doi/10.1145/3538643.3539743
 * Im, M., Kang, K., & Yeom, H. (2022, November). Accelerating RocksDB for small-zone ZNS SSDs by parallel I/O mechanism. In Proceedings of the 23rd International Middleware Conference: Industrial Track (pp. 15-21). https://dl.acm.org/doi/abs/10.1145/3564695.3564774
+* WA-Zone: Wear-Aware Zone Management Optimization for LSM-Tree on ZNS SSDs (TACO, https://dl.acm.org/doi/abs/10.1145/3637488)
+* Persimmon (now accepted at ICCD, https://ieeexplore.ieee.org/abstract/document/10361006)
+* LifetimeKV: Narrowing the Lifetime Gap of SSTs in LSMT-based KV Stores for ZNS SSDs (ICCD, https://ieeexplore.ieee.org/abstract/document/10360942)
+* FlexZNS: Building High-Performance ZNS SSDs with Size-Flexible and Parity-Protected Zones (ICCD, https://ieeexplore.ieee.org/document/10361036)
+* BlzFS: Crash Consistent Log-Structured File System Based on Byte-Loggable Zone for ZNS SSD (ICCD, https://ieeexplore.ieee.org/document/10360948)
+* Turn Waste Into Wealth: Alleviating Read/Write Interference in ZNS SSDs: (ICCD, https://ieeexplore.ieee.org/document/10360957)
+* Accelerating Flush Operation of LSM Tree by Leveraging the Zone Append Command (ICCE-Asia, https://ieeexplore-ieee-org.vu-nl.idm.oclc.org/abstract/document/10326387) 
 
 #### Other interfaces
 * OCSSD: https://www.usenix.org/system/files/conference/fast17/fast17-bjorling.pdf
