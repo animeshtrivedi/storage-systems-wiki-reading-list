@@ -137,14 +137,21 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 ### SNIA/NVMe weblinks 
   * 2023: FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf, https://nvmexpress.org/wp-content/uploads/FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf
 
-### Traces, profiling, and characterization 
+### Traces, profiling, monitoring, and characterization 
   * Jinhong Li, Qiuping Wang, Patrick P. C. Lee, and Chao Shi. 2023. An In-depth Comparative Analysis of Cloud Block Storage Workloads: Findings and Implications. ACM Trans. Storage 19, 2, Article 16 (May 2023), 32 pages. https://doi.org/10.1145/3572779
   * Gala Yadgar, MOSHE Gabel, Shehbaz Jaffer, and Bianca Schroeder. 2021. SSD-based Workload Characteristics and Their Performance Implications. ACM Trans. Storage 17, 1, Article 8 (February 2021), 26 pages. https://doi.org/10.1145/3423137
+  * A. K. Paul, O. Faaland, A. Moody, E. Gonsiorowski, K. Mohror and A. R. Butt, "Understanding HPC Application I/O Behavior Using System Level Statistics," 2020 IEEE 27th International Conference on High Performance Computing, Data, and Analytics (HiPC), Pune, India, 2020, pp. 202-211, doi: 10.1109/HiPC50609.2020.00034.
+  * S. Kavalanekar, B. Worthington, Qi Zhang and V. Sharda, "Characterization of storage workload traces from production Windows Servers," 2008 IEEE International Symposium on Workload Characterization, Seattle, WA, 2008, pp. 119-128, doi: 10.1109/IISWC.2008.4636097.
+  * Tirthak Patel, Suren Byna, Glenn K. Lockwood, and Devesh Tiwari. 2019. Revisiting I/O behavior in large-scale storage systems: the expected and the unexpected. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '19). Association for Computing Machinery, New York, NY, USA, Article 65, 1–13. https://doi.org/10.1145/3295500.3356183 
   * Omkar Desai, Seungmin Shin, Eunji Lee, and Bryan S. Kim. 2022. A principled approach for selecting block I/O traces. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '22). Association for Computing Machinery, New York, NY, USA, 52–58. https://doi.org/10.1145/3538643.3539754
   * Large-Scale Analysis of Docker Images and Performance Implications for Container Storage Systems. IEEE Trans. Parallel Distributed Syst. 32(4): 918-930 (2021)
   * Marc-André Vef, Vasily Tarasov, Dean Hildebrand, and André Brinkmann. 2018. Challenges and Solutions for Tracing Storage Systems: A Case Study with Spectrum Scale. ACM Trans. Storage 14, 2, Article 18 (May 2018), 24 pages. https://doi.org/10.1145/3149376 
-  * 
-
+  * Yang Liu, Raghul Gunasekaran, Xiaosong Ma, and Sudharshan S. Vazhkudai. 2014. Automatic identification of application I/O signatures from noisy server-side traces. In Proceedings of the 12th USENIX conference on File and Storage Technologies (FAST'14). USENIX Association, USA, 213–228.
+  * I. Ahmad, "Easy and Efficient Disk I/O Workload Characterization in VMware ESX Server," 2007 IEEE 10th International Symposium on Workload Characterization, Boston, MA, USA, 2007, pp. 149-158, doi: 10.1109/IISWC.2007.4362191.
+  * Jayanta Basak, Kushal Wadhwani, and Kaladhar Voruganti. 2016. Storage Workload Identification. ACM Trans. Storage 12, 3, Article 14 (June 2016), 30 pages. https://doi.org/10.1145/2818716
+  * Ajay Gulati, Chethan Kumar, and Irfan Ahmad. Storage workload characterization and consolidation in virtualized environments. In Proc. Int'l Workshop on Virtualization Performance: Analysis, Characterization, and Tools (VPACT'09), 2009.
+  * Bin Yang, Wei Xue, Tianyu Zhang, Shichao Liu, Xiaosong Ma, Xiyang Wang, and Weiguo Liu. 2023. End-to-end I/O Monitoring on Leading Supercomputers. ACM Trans. Storage 19, 1, Article 3 (February 2023), 35 pages. https://doi.org/10.1145/3568425 (NSDI: https://www.usenix.org/conference/nsdi19/presentation/yang)
+  * V. Tarasov, S. Kumar, J. Ma, D. Hildebrand, A. Povzner, G. Kuenning, and E. Zadok. 2012. Extracting flexible, replayable models from large block traces. In Proceedings of the 10th USENIX conference on File and Storage Technologies (FAST'12). USENIX Association, USA, 22. https://static.usenix.org/events/fast12/tech/full_papers/Tarasov.pdf 
     
 ### A selection of storage related surveys 
 [2023] 
