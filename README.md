@@ -139,7 +139,11 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 
 ### Traces, profiling, and characterization 
   * Jinhong Li, Qiuping Wang, Patrick P. C. Lee, and Chao Shi. 2023. An In-depth Comparative Analysis of Cloud Block Storage Workloads: Findings and Implications. ACM Trans. Storage 19, 2, Article 16 (May 2023), 32 pages. https://doi.org/10.1145/3572779
-  * Gala Yadgar, MOSHE Gabel, Shehbaz Jaffer, and Bianca Schroeder. 2021. SSD-based Workload Characteristics and Their Performance Implications. ACM Trans. Storage 17, 1, Article 8 (February 2021), 26 pages. https://doi.org/10.1145/3423137 
+  * Gala Yadgar, MOSHE Gabel, Shehbaz Jaffer, and Bianca Schroeder. 2021. SSD-based Workload Characteristics and Their Performance Implications. ACM Trans. Storage 17, 1, Article 8 (February 2021), 26 pages. https://doi.org/10.1145/3423137
+  * Omkar Desai, Seungmin Shin, Eunji Lee, and Bryan S. Kim. 2022. A principled approach for selecting block I/O traces. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '22). Association for Computing Machinery, New York, NY, USA, 52–58. https://doi.org/10.1145/3538643.3539754
+  * Large-Scale Analysis of Docker Images and Performance Implications for Container Storage Systems. IEEE Trans. Parallel Distributed Syst. 32(4): 918-930 (2021)
+  * Marc-André Vef, Vasily Tarasov, Dean Hildebrand, and André Brinkmann. 2018. Challenges and Solutions for Tracing Storage Systems: A Case Study with Spectrum Scale. ACM Trans. Storage 14, 2, Article 18 (May 2018), 24 pages. https://doi.org/10.1145/3149376 
+  * 
 
     
 ### A selection of storage related surveys 
