@@ -10,7 +10,9 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 ## Reading list 
 
 ### NVM storage and device-level details 
+  * Improving Flash Storage Performance by Caching Address Mapping Table in Host Memory, https://www.usenix.org/conference/hotstorage17/program/presentation/jeong
   * 
+
 
 ### Flash FTL designs, patterns, and GC designs 
   * 
@@ -18,7 +20,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 ### Host interfacing, OS and Storage I/O Stack  
   * Theano Stavrinos, Daniel S. Berger, Ethan Katz-Bassett, and Wyatt Lloyd. 2021. Don't be a blockhead: zoned namespaces make work on conventional SSDs obsolete. In Proceedings of the Workshop on Hot Topics in Operating Systems (HotOS '21). Association for Computing Machinery, New York, NY, USA, 144–151. https://doi.org/10.1145/3458336.3465300
      * ZNS is the new and exciting interface for NVM storage. It is also quite fundamental as the paper argues that it solves or makes old problems with flash useless. A good fun read (plus, summarizes a decade worth of research effort in managing flash)  
-  * FlatFlash: Exploiting the Byte-Accessibility of SSDs within a Unified Memory-Storage Hierarchy, ASPLOS 2019, https://dl-acm-org.vu-nl.idm.oclc.org/doi/abs/10.1145/3297858.3304061
+  * FlatFlash: Exploiting the Byte-Accessibility of SSDs within a Unified Memory-Storage Hierarchy, ASPLOS 2019, https://dl-acm-org.vu-nl.idm.oclc.org/doi/abs/10.1145/3297858.3304061  * 
 
 ### Flash I/O Scheduling and quality-of-service/multi-tenancy 
   * BlockFlex: Enabling Storage Harvesting with Software-Defined Flash in Modern Cloud Platforms, OSDI 2022. https://www.usenix.org/conference/osdi22/presentation/reidys 
@@ -127,7 +129,9 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 * FlexZNS: Building High-Performance ZNS SSDs with Size-Flexible and Parity-Protected Zones (ICCD, https://ieeexplore.ieee.org/document/10361036)
 * BlzFS: Crash Consistent Log-Structured File System Based on Byte-Loggable Zone for ZNS SSD (ICCD, https://ieeexplore.ieee.org/document/10360948)
 * Turn Waste Into Wealth: Alleviating Read/Write Interference in ZNS SSDs: (ICCD, https://ieeexplore.ieee.org/document/10360957)
-* Accelerating Flush Operation of LSM Tree by Leveraging the Zone Append Command (ICCE-Asia, https://ieeexplore-ieee-org.vu-nl.idm.oclc.org/abstract/document/10326387) 
+* Accelerating Flush Operation of LSM Tree by Leveraging the Zone Append Command (ICCE-Asia, https://ieeexplore-ieee-org.vu-nl.idm.oclc.org/abstract/document/10326387)
+* SplitZNS: Towards an Efficient LSM-Tree on Zoned Namespace SSDs. ACM Trans. Archit. Code Optim. 20, 3, Article 45 (September 2023), 26 pages. https://doi.org/10.1145/3608476 
+
 
 #### Other interfaces
 * OCSSD: https://www.usenix.org/system/files/conference/fast17/fast17-bjorling.pdf
