@@ -70,6 +70,10 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * GraphWalker: An I/O-Efficient and Resource-Friendly Graph Analytic System for Fast and Scalable Random Walks, https://www.usenix.org/conference/atc20/presentation/wang-rui
   * Chun-Yi Liu, Wonil Choi, Soheil Khadirsharbiyani, and Mahmut Kandemir. 2023. MBFGraph: An SSD-based External Graph System for Evolving Graphs. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '23). Association for Computing Machinery, New York, NY, USA, Article 24, 1–13. https://doi.org/10.1145/3581784.3607070
   * Sang-Woo Jun, Andy Wright, Sizhuo Zhang, Shuotao Xu, and Arvind. 2018. GraFboost: using accelerated flash storage for external graph analytics. In Proceedings of the 45th Annual International Symposium on Computer Architecture (ISCA '18). IEEE Press, 411–424. https://doi.org/10.1109/ISCA.2018.00042
+  * GLIST: Towards In-Storage Graph Learning, https://www.usenix.org/conference/atc21/presentation/li-cangyuan
+  * Hardware/Software Co-Programmable Framework for Computational SSDs to Accelerate Deep Learning Service on Large-Scale Graphs, https://www.usenix.org/conference/fast22/presentation/kwon
+  * GraFboost: using accelerated flash storage for external graph analytics. In Proceedings of the 45th Annual International Symposium on Computer Architecture (ISCA '18). IEEE Press, 411–424. https://doi.org/10.1109/ISCA.2018.00042
+  * Lambda-IO: A Unified IO Stack for Computational Storage, https://www.usenix.org/system/files/fast23-yang-zhe.pdf  
   * https://people.csail.mit.edu/jshun/graph.shtml
   * 
 ### Performance (mostly with OS/APIs) 
