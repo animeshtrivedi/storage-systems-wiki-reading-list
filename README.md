@@ -61,8 +61,17 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * 
 
 ### Programmable storage, acceleration, offloading, computational storage, workload-specific storage   
-  * Kiran Kumar Matam, Gunjae Koo, Haipeng Zha, Hung-Wei Tseng, and Murali Annavaram. 2019. GraphSSD: graph semantics aware SSD. In Proceedings of the 46th International Symposium on Computer Architecture (ISCA '19). Association for Computing Machinery, New York, NY, USA, 116–128. https://doi.org/10.1145/3307650.3322275 
-
+  * Kiran Kumar Matam, Gunjae Koo, Haipeng Zha, Hung-Wei Tseng, and Murali Annavaram. 2019. GraphSSD: graph semantics aware SSD. In Proceedings of the 46th International Symposium on Computer Architecture (ISCA '19). Association for Computing Machinery, New York, NY, USA, 116–128. https://doi.org/10.1145/3307650.3322275
+  * Yunjae Lee, Jinha Chung, and Minsoo Rhu. 2022. SmartSAGE: training large-scale graph neural networks using in-storage processing architectures. In Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for Computing Machinery, New York, NY, USA, 932–945. https://doi.org/10.1145/3470496.3527391
+  * Hongsu Byun, Safdar Jamil, Jungwook Han, Sungyong Park, Myungcheol Lee, Changsoo Kim, Beongjun Choi, and Youngjae Kim. 2023. An Analytical Model-based Capacity Planning Approach for Building CSD-based Storage Systems. ACM Trans. Embed. Comput. Syst. Just Accepted (September 2023). https://doi.org/10.1145/3623677
+  * Juno Kim and Steven Swanson. 2022. Blaze: fast graph processing on fast SSDs. In Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis (SC '22). IEEE Press, Article 44, 1–15. (Github: https://github.com/NVSL/blaze ) 
+  * X. Liao et al., "A Structure-Aware Storage Optimization for Out-of-Core Concurrent Graph Processing," in IEEE Transactions on Computers, vol. 71, no. 7, pp. 1612-1625, 1 July 2022, doi: 10.1109/TC.2021.3098976.
+  * X. Xu, F. Wang, H. Jiang, Y. Cheng, D. Feng and Y. Zhang, "A Hybrid Update Strategy for I/O-Efficient Out-of-Core Graph Processing," in IEEE Transactions on Parallel and Distributed Systems, vol. 31, no. 8, pp. 1767-1782, 1 Aug. 2020, doi: 10.1109/TPDS.2020.2973143.
+  * GraphWalker: An I/O-Efficient and Resource-Friendly Graph Analytic System for Fast and Scalable Random Walks, https://www.usenix.org/conference/atc20/presentation/wang-rui
+  * Chun-Yi Liu, Wonil Choi, Soheil Khadirsharbiyani, and Mahmut Kandemir. 2023. MBFGraph: An SSD-based External Graph System for Evolving Graphs. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '23). Association for Computing Machinery, New York, NY, USA, Article 24, 1–13. https://doi.org/10.1145/3581784.3607070
+  * Sang-Woo Jun, Andy Wright, Sizhuo Zhang, Shuotao Xu, and Arvind. 2018. GraFboost: using accelerated flash storage for external graph analytics. In Proceedings of the 45th Annual International Symposium on Computer Architecture (ISCA '18). IEEE Press, 411–424. https://doi.org/10.1109/ISCA.2018.00042
+  * https://people.csail.mit.edu/jshun/graph.shtml
+  * 
 ### Performance (mostly with OS/APIs) 
   * Diego Didona, Jonas Pfefferle, Nikolas Ioannou, Bernard Metzler, and Animesh Trivedi. 2022. Understanding modern storage APIs: a systematic study of libaio, SPDK, and io_uring. In Proceedings of the 15th ACM International Conference on Systems and Storage (SYSTOR '22). Association for Computing Machinery, New York, NY, USA, 120–127. https://doi.org/10.1145/3534056.3534945
   * Gabriel Haas and Viktor Leis. 2023. What Modern NVMe Storage Can Do, and How to Exploit it: High-Performance I/O for High-Performance Storage Engines. Proc. VLDB Endow. 16, 9 (May 2023), 2090–2102. https://doi.org/10.14778/3598581.3598584
