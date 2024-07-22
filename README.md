@@ -31,7 +31,8 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Towards Low-Latency I/O Services for Mixed Workloads Using Ultra-Low Latency SSDs (FastResponse): https://dl.acm.org/doi/pdf/10.1145/3524059.3532378
   * Configuring and Coordinating End-to-end QoS for Emerging Storage Infrastructure. ACM Trans. Model. Perform. Eval. Comput. Syst. 9, 1, Article 4 (March 2024), 32 pages. https://doi.org/10.1145/3631606
   * Enabling NVMe WRR support in Linux Block Layer,https://www.usenix.org/conference/hotstorage17/program/presentation/joshi 
-  * BFQ, Multiqueue-Deadline, or Kyber? Performance Characterization of Linux Storage Schedulers in the NVMe Era, https://dl.acm.org/doi/10.1145/3629526.3645053 
+  * BFQ, Multiqueue-Deadline, or Kyber? Performance Characterization of Linux Storage Schedulers in the NVMe Era, https://dl.acm.org/doi/10.1145/3629526.3645053
+  * Do we still need IO schedulers for low-latency disks? https://dl.acm.org/doi/10.1145/3599691.3603400
 
 ### File Systems 
   * 
