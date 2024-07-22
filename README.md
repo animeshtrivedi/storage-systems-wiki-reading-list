@@ -28,7 +28,10 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * D2FQ: https://www.usenix.org/system/files/fast21-woo.pdf
   * blk-switch: https://www.usenix.org/system/files/osdi21-hwang.pdf
   * I/O Schedulers for Proportionality and Stability on Flash-Based SSDs in Multi-Tenant Environments
-  * FastResponse: https://dl.acm.org/doi/pdf/10.1145/3524059.3532378
+  * Towards Low-Latency I/O Services for Mixed Workloads Using Ultra-Low Latency SSDs (FastResponse): https://dl.acm.org/doi/pdf/10.1145/3524059.3532378
+  * Configuring and Coordinating End-to-end QoS for Emerging Storage Infrastructure. ACM Trans. Model. Perform. Eval. Comput. Syst. 9, 1, Article 4 (March 2024), 32 pages. https://doi.org/10.1145/3631606
+  * Enabling NVMe WRR support in Linux Block Layer,https://www.usenix.org/conference/hotstorage17/program/presentation/joshi 
+  * BFQ, Multiqueue-Deadline, or Kyber? Performance Characterization of Linux Storage Schedulers in the NVMe Era, https://dl.acm.org/doi/10.1145/3629526.3645053 
 
 ### File Systems 
   * 
@@ -190,5 +193,3 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 [prior] 
   * Athanasios Fevgas, Leonidas Akritidis, Panayiotis Bozanis, and Yannis Manolopoulos. 2020. Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
      * One of the most comprehensive and well-written surveys on indexing data structures on flash storage 
-
-  
