@@ -144,7 +144,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 * Turn Waste Into Wealth: Alleviating Read/Write Interference in ZNS SSDs: (ICCD, https://ieeexplore.ieee.org/document/10360957)
 * Accelerating Flush Operation of LSM Tree by Leveraging the Zone Append Command (ICCE-Asia, https://ieeexplore-ieee-org.vu-nl.idm.oclc.org/abstract/document/10326387)
 * SplitZNS: Towards an Efficient LSM-Tree on Zoned Namespace SSDs. ACM Trans. Archit. Code Optim. 20, 3, Article 45 (September 2023), 26 pages. https://doi.org/10.1145/3608476 
-
+* Chen PX., Seo D., Sung C., Park J., Lee M., Li H., Bjørling M., Dutt N. ZoneTrace: A Zone Monitoring Tool for F2FS on ZNS SSDs. ACM Transactions on Design Automation of Electronic Systems. 2024. https://dl.acm.org/doi/abs/10.1145/3656172
 
 #### Other interfaces
 * OCSSD: https://www.usenix.org/system/files/conference/fast17/fast17-bjorling.pdf
