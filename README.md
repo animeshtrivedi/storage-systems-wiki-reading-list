@@ -87,7 +87,9 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * GraFboost: using accelerated flash storage for external graph analytics. In Proceedings of the 45th Annual International Symposium on Computer Architecture (ISCA '18). IEEE Press, 411–424. https://doi.org/10.1109/ISCA.2018.00042
   * Lambda-IO: A Unified IO Stack for Computational Storage, https://www.usenix.org/system/files/fast23-yang-zhe.pdf  
   * https://people.csail.mit.edu/jshun/graph.shtml
-  * 
+  * Graphene: Fine-Grained IO Management for Graph Computing, https://www.usenix.org/conference/fast17/technical-sessions/presentation/liu (Github:https://github.com/iHeartGraph/Graphene)
+  * Seraph: Towards Scalable and Efficient Fully-external Graph Computation via On-demand Processing, https://www.usenix.org/conference/fast24/presentation/yang-tsun-yu
+  
 ### Performance (mostly with OS/APIs) 
   * Diego Didona, Jonas Pfefferle, Nikolas Ioannou, Bernard Metzler, and Animesh Trivedi. 2022. Understanding modern storage APIs: a systematic study of libaio, SPDK, and io_uring. In Proceedings of the 15th ACM International Conference on Systems and Storage (SYSTOR '22). Association for Computing Machinery, New York, NY, USA, 120–127. https://doi.org/10.1145/3534056.3534945
   * Gabriel Haas and Viktor Leis. 2023. What Modern NVMe Storage Can Do, and How to Exploit it: High-Performance I/O for High-Performance Storage Engines. Proc. VLDB Endow. 16, 9 (May 2023), 2090–2102. https://doi.org/10.14778/3598581.3598584
