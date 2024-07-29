@@ -68,6 +68,8 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * 
 
 ### Programmable storage, acceleration, offloading, computational storage, workload-specific storage
+  * Alberto Lerner and Philippe Bonnet. 2021. Not your Grandpa's SSD: The Era of Co-Designed Storage Devices. In Proceedings of the 2021 International Conference on Management of Data (SIGMOD '21). Association for Computing Machinery, New York, NY, USA, 2852–2858. https://doi.org/10.1145/3448016.3457540
+  * Computational Storage: Where Are We Today? https://www.cidrdb.org/cidr2021/papers/cidr2021_paper29.pdf  
   * Cognitive SSD: A Deep Learning Engine for In-Storage Data Retrieval, https://www.usenix.org/conference/atc19/presentation/liang 
   * POLARDB Meets Computational Storage: Efficiently Support Analytical Workloads in Cloud-Native Relational Database, https://www.usenix.org/conference/fast20/presentation/cao-wei
   * A Fast and Flexible Hardware-based Virtualization Mechanism for Computational Storage Devices, https://www.usenix.org/conference/atc21/presentation/kwon
