@@ -68,6 +68,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * 
 
 ### Programmable storage, acceleration, offloading, computational storage, workload-specific storage
+  * Cognitive SSD: A Deep Learning Engine for In-Storage Data Retrieval, https://www.usenix.org/conference/atc19/presentation/liang 
   * POLARDB Meets Computational Storage: Efficiently Support Analytical Workloads in Cloud-Native Relational Database, https://www.usenix.org/conference/fast20/presentation/cao-wei
   * A Fast and Flexible Hardware-based Virtualization Mechanism for Computational Storage Devices, https://www.usenix.org/conference/atc21/presentation/kwon
   * Ali HeydariGorji, Siavash Rezaei, Mahdi Torabzadehkashi, Hossein Bobarshad, Vladimir Alves, and Pai H. Chou. 2022. Leveraging Computational Storage for Power-Efficient Distributed Data Analytics. ACM Trans. Embed. Comput. Syst. 21, 6, Article 82 (November 2022), 36 pages. https://doi.org/10.1145/3528577 
