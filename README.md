@@ -68,6 +68,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * 
 
 ### Programmable storage, acceleration, offloading, computational storage, workload-specific storage
+  * Vikram Sharma Mailthody, Zaid Qureshi, Weixin Liang, Ziyan Feng, Simon Garcia de Gonzalo, Youjie Li, Hubertus Franke, Jinjun Xiong, Jian Huang, and Wen-mei Hwu. 2019. DeepStore: In-Storage Acceleration for Intelligent Queries. In Proceedings of the 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '52). Association for Computing Machinery, New York, NY, USA, 224–238. https://doi.org/10.1145/3352460.3358320 
   * Alberto Lerner and Philippe Bonnet. 2021. Not your Grandpa's SSD: The Era of Co-Designed Storage Devices. In Proceedings of the 2021 International Conference on Management of Data (SIGMOD '21). Association for Computing Machinery, New York, NY, USA, 2852–2858. https://doi.org/10.1145/3448016.3457540
   * Computational Storage: Where Are We Today? https://www.cidrdb.org/cidr2021/papers/cidr2021_paper29.pdf  
   * Cognitive SSD: A Deep Learning Engine for In-Storage Data Retrieval, https://www.usenix.org/conference/atc19/presentation/liang 
