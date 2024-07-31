@@ -182,6 +182,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * 2023: FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf, https://nvmexpress.org/wp-content/uploads/FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf
 
 ### Traces, profiling, monitoring, and characterization 
+  * Phitchaya Mangpo Phothilimthana, Saurabh Kadekodi, Soroush Ghodrati, Selene Moon, and Martin Maas. 2024. Thesios: Synthesizing Accurate Counterfactual I/O Traces from I/O Samples. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS '24), Vol. 3. Association for Computing Machinery, New York, NY, USA, 1016–1032. https://doi.org/10.1145/3620666.3651337
   * Jinhong Li, Qiuping Wang, Patrick P. C. Lee, and Chao Shi. 2023. An In-depth Comparative Analysis of Cloud Block Storage Workloads: Findings and Implications. ACM Trans. Storage 19, 2, Article 16 (May 2023), 32 pages. https://doi.org/10.1145/3572779
   * Gala Yadgar, MOSHE Gabel, Shehbaz Jaffer, and Bianca Schroeder. 2021. SSD-based Workload Characteristics and Their Performance Implications. ACM Trans. Storage 17, 1, Article 8 (February 2021), 26 pages. https://doi.org/10.1145/3423137
   * A. K. Paul, O. Faaland, A. Moody, E. Gonsiorowski, K. Mohror and A. R. Butt, "Understanding HPC Application I/O Behavior Using System Level Statistics," 2020 IEEE 27th International Conference on High Performance Computing, Data, and Analytics (HiPC), Pune, India, 2020, pp. 202-211, doi: 10.1109/HiPC50609.2020.00034.
@@ -203,6 +204,17 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Shushu Yi, Yanning Yang, Yunxiao Tang, Zixuan Zhou, Junzhe Li, Chen Yue, Myoungsoo Jung, and Jie Zhang. 2022. ScalaRAID: optimizing linux software RAID system for next-generation storage. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '22). Association for Computing Machinery, New York, NY, USA, 119–125. https://doi.org/10.1145/3538643.3539740
   * 
 
+### ML and (Storage) Systems 
+  * https://proceedings.mlsys.org/
+  * CheckFreq: Frequent, Fine-Grained DNN Checkpointing, https://www.usenix.org/conference/fast21/presentation/mohan
+  * Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models, https://www.usenix.org/conference/nsdi22/presentation/eisenman
+  * Characterization of Large Language Model Development in the Datacenter, https://www.usenix.org/conference/nsdi24/presentation/hu
+  * GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints. In Proceedings of the 29th Symposium on Operating Systems Principles (SOSP '23). Association for Computing Machinery, New York, NY, USA, 364–381. https://doi.org/10.1145/3600006.3613145
+  * Efficient large-scale language model training on GPU clusters using megatron-LM. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '21). Association for Computing Machinery, New York, NY, USA, Article 58, 1–15. https://doi.org/10.1145/3458817.3476209
+  * PipeDream: generalized pipeline parallelism for DNN training. In Proceedings of the 27th ACM Symposium on Operating Systems Principles (SOSP '19). Association for Computing Machinery, New York, NY, USA, 1–15. https://doi.org/10.1145/3341301.3359646
+  * PyTorch distributed: experiences on accelerating data parallel training. Proc. VLDB Endow. 13, 12 (August 2020), 3005–3018. https://doi.org/10.14778/3415478.3415530
+  * Analyzing and mitigating data stalls in DNN training. Proc. VLDB Endow. 14, 5 (January 2021), 771–784. https://doi.org/10.14778/3446095.3446100
+ 
 
 ### A selection of storage related surveys 
 [2023] 
