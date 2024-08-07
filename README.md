@@ -82,6 +82,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Scalable Billion-point Approximate Nearest Neighbor Search Using SmartSSDs, https://www.usenix.org/conference/atc24/presentation/tian 
 
 #### Graphs      
+  * [Collection] https://github.com/dnasc/graph-processing 
   * Mosaic: Processing a Trillion-Edge Graph on a Single Machine. In Proceedings of the Twelfth European Conference on Computer Systems (EuroSys '17). Association for Computing Machinery, New York, NY, USA, 527–543. https://doi.org/10.1145/3064176.3064191
   * Efficient Large Graph Processing with Chunk-Based Graph Representation Model, https://www.usenix.org/conference/atc24/presentation/wang-rui 
   * Tarikul Islam Papon, Taishan Chen, Shuo Zhang, and Manos Athanassoulis. 2024. CAVE: Concurrency-Aware Graph Processing on SSDs. Proc. ACM Manag. Data 2, 3, Article 125 (June 2024), 26 pages. https://doi.org/10.1145/3654928 
