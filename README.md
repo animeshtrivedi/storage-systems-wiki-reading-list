@@ -79,15 +79,16 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Cost-effective, Energy-efficient, and Scalable Storage Computing for Large-scale AI Applications. ACM Trans. Storage 16, 4, Article 21 (November 2020), 37 pages. https://doi.org/10.1145/3415580 
   * SmartSAGE: training large-scale graph neural networks using in-storage processing architectures. In Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for Computing Machinery, New York, NY, USA, 932–945. https://doi.org/10.1145/3470496.3527391
   * An Analytical Model-based Capacity Planning Approach for Building CSD-based Storage Systems. ACM Trans. Embed. Comput. Syst. Just Accepted (September 2023). https://doi.org/10.1145/3623677
+  * Scalable Billion-point Approximate Nearest Neighbor Search Using SmartSSDs, https://www.usenix.org/conference/atc24/presentation/tian 
 
-#### Graphs  
+#### Graphs      
   * Mosaic: Processing a Trillion-Edge Graph on a Single Machine. In Proceedings of the Twelfth European Conference on Computer Systems (EuroSys '17). Association for Computing Machinery, New York, NY, USA, 527–543. https://doi.org/10.1145/3064176.3064191
   * Efficient Large Graph Processing with Chunk-Based Graph Representation Model, https://www.usenix.org/conference/atc24/presentation/wang-rui 
   * Tarikul Islam Papon, Taishan Chen, Shuo Zhang, and Manos Athanassoulis. 2024. CAVE: Concurrency-Aware Graph Processing on SSDs. Proc. ACM Manag. Data 2, 3, Article 125 (June 2024), 26 pages. https://doi.org/10.1145/3654928 
   * Kiran Kumar Matam, Gunjae Koo, Haipeng Zha, Hung-Wei Tseng, and Murali Annavaram. 2019. GraphSSD: graph semantics aware SSD. In Proceedings of the 46th International Symposium on Computer Architecture (ISCA '19). Association for Computing Machinery, New York, NY, USA, 116–128. https://doi.org/10.1145/3307650.3322275  
-  * FlashGraph: Processing Billion-Node Graphs on an Array of Commodity SSDs, https://www.usenix.org/conference/fast15/technical-sessions/presentation/zheng 
+  * FlashGraph: Processing Billion-Node Graphs on an Array of Commodity SSDs, https://www.usenix.org/conference/fast15/technical-sessions/presentation/zheng ([Github](https://github.com/flashxio/FlashX))
   * Juno Kim and Steven Swanson. 2022. Blaze: fast graph processing on fast SSDs. In Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis (SC '22). IEEE Press, Article 44, 1–15. (Github: https://github.com/NVSL/blaze )
-  * TriCache: A User-Transparent Block Cache Enabling High-Performance Out-of-Core Processing with In-Memory Programs, https://www.usenix.org/conference/osdi22/presentation/feng 
+  * TriCache: A User-Transparent Block Cache Enabling High-Performance Out-of-Core Processing with In-Memory Programs, https://www.usenix.org/conference/osdi22/presentation/feng (has graph as one of the driving workloads) 
   * "A Structure-Aware Storage Optimization for Out-of-Core Concurrent Graph Processing," in IEEE Transactions on Computers, vol. 71, no. 7, pp. 1612-1625, 1 July 2022, doi: 10.1109/TC.2021.3098976.
   * "A Hybrid Update Strategy for I/O-Efficient Out-of-Core Graph Processing," in IEEE Transactions on Parallel and Distributed Systems, vol. 31, no. 8, pp. 1767-1782, 1 Aug. 2020, doi: 10.1109/TPDS.2020.2973143.
   * LUMOS: Dependency-Driven Disk-based Graph Processing, https://www.usenix.org/conference/atc19/presentation/vora [https://github.com/pdclab/lumos](https://github.com/pdclab/lumos)
@@ -97,6 +98,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * GLIST: Towards In-Storage Graph Learning, https://www.usenix.org/conference/atc21/presentation/li-cangyuan
   * Hardware/Software Co-Programmable Framework for Computational SSDs to Accelerate Deep Learning Service on Large-Scale Graphs, https://www.usenix.org/conference/fast22/presentation/kwon
   * GraFboost: using accelerated flash storage for external graph analytics. In Proceedings of the 45th Annual International Symposium on Computer Architecture (ISCA '18). IEEE Press, 411–424. https://doi.org/10.1109/ISCA.2018.00042
+  * Load the edges you need: a generic I/O optimization for disk-based graph processing. In Proceedings of the 2016 USENIX Conference on Usenix Annual Technical Conference (USENIX ATC '16). USENIX Association, USA, 507–522.
   * Lambda-IO: A Unified IO Stack for Computational Storage, https://www.usenix.org/system/files/fast23-yang-zhe.pdf  
   * https://people.csail.mit.edu/jshun/graph.shtml
   * Graphene: Fine-Grained IO Management for Graph Computing, https://www.usenix.org/conference/fast17/technical-sessions/presentation/liu (Github:https://github.com/iHeartGraph/Graphene)
