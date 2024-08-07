@@ -101,6 +101,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * https://people.csail.mit.edu/jshun/graph.shtml
   * Graphene: Fine-Grained IO Management for Graph Computing, https://www.usenix.org/conference/fast17/technical-sessions/presentation/liu (Github:https://github.com/iHeartGraph/Graphene)
   * Seraph: Towards Scalable and Efficient Fully-external Graph Computation via On-demand Processing, https://www.usenix.org/conference/fast24/presentation/yang-tsun-yu
+  * Parallelizing Sequential Graph Computations. In Proceedings of the 2017 ACM International Conference on Management of Data (SIGMOD '17). Association for Computing Machinery, New York, NY, USA, 495–510. https://doi.org/10.1145/3035918.3035942
   
 ### Performance (mostly with OS/APIs) 
   * Diego Didona, Jonas Pfefferle, Nikolas Ioannou, Bernard Metzler, and Animesh Trivedi. 2022. Understanding modern storage APIs: a systematic study of libaio, SPDK, and io_uring. In Proceedings of the 15th ACM International Conference on Systems and Storage (SYSTOR '22). Association for Computing Machinery, New York, NY, USA, 120–127. https://doi.org/10.1145/3534056.3534945
