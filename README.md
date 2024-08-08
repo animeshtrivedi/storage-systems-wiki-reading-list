@@ -106,7 +106,8 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Seraph: Towards Scalable and Efficient Fully-external Graph Computation via On-demand Processing, https://www.usenix.org/conference/fast24/presentation/yang-tsun-yu
   * Parallelizing Sequential Graph Computations. In Proceedings of the 2017 ACM International Conference on Management of Data (SIGMOD '17). Association for Computing Machinery, New York, NY, USA, 495–510. https://doi.org/10.1145/3035918.3035942
   
-### Performance (mostly with OS/APIs) 
+### Performance, Efficiency, Scalability (mostly with OS/APIs) 
+  * I/O Passthru: Upstreaming a flexible and efficient I/O Path in Linux, https://www.usenix.org/system/files/fast24-joshi.pdf
   * Diego Didona, Jonas Pfefferle, Nikolas Ioannou, Bernard Metzler, and Animesh Trivedi. 2022. Understanding modern storage APIs: a systematic study of libaio, SPDK, and io_uring. In Proceedings of the 15th ACM International Conference on Systems and Storage (SYSTOR '22). Association for Computing Machinery, New York, NY, USA, 120–127. https://doi.org/10.1145/3534056.3534945
   * Gabriel Haas and Viktor Leis. 2023. What Modern NVMe Storage Can Do, and How to Exploit it: High-Performance I/O for High-Performance Storage Engines. Proc. VLDB Endow. 16, 9 (May 2023), 2090–2102. https://doi.org/10.14778/3598581.3598584
   * Zebin Ren and Animesh Trivedi. 2023. Performance Characterization of Modern Storage Stacks: POSIX I/O, libaio, SPDK, and io_uring. In Proceedings of the 3rd Workshop on Challenges and Opportunities of Efficient and Performant Storage Systems (CHEOPS '23). Association for Computing Machinery, New York, NY, USA, 35–45. https://doi.org/10.1145/3578353.3589545
