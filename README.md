@@ -82,7 +82,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Scalable Billion-point Approximate Nearest Neighbor Search Using SmartSSDs, https://www.usenix.org/conference/atc24/presentation/tian 
 
 #### Graphs      
-  * [Collection] https://github.com/dnasc/graph-processing 
+  * [Collection of papers projects] https://github.com/dnasc/graph-processing 
   * Mosaic: Processing a Trillion-Edge Graph on a Single Machine. In Proceedings of the Twelfth European Conference on Computer Systems (EuroSys '17). Association for Computing Machinery, New York, NY, USA, 527–543. https://doi.org/10.1145/3064176.3064191
   * Efficient Large Graph Processing with Chunk-Based Graph Representation Model, https://www.usenix.org/conference/atc24/presentation/wang-rui 
   * Tarikul Islam Papon, Taishan Chen, Shuo Zhang, and Manos Athanassoulis. 2024. CAVE: Concurrency-Aware Graph Processing on SSDs. Proc. ACM Manag. Data 2, 3, Article 125 (June 2024), 26 pages. https://doi.org/10.1145/3654928 
@@ -105,6 +105,8 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Graphene: Fine-Grained IO Management for Graph Computing, https://www.usenix.org/conference/fast17/technical-sessions/presentation/liu (Github:https://github.com/iHeartGraph/Graphene)
   * Seraph: Towards Scalable and Efficient Fully-external Graph Computation via On-demand Processing, https://www.usenix.org/conference/fast24/presentation/yang-tsun-yu
   * Parallelizing Sequential Graph Computations. In Proceedings of the 2017 ACM International Conference on Management of Data (SIGMOD '17). Association for Computing Machinery, New York, NY, USA, 495–510. https://doi.org/10.1145/3035918.3035942
+  * Everything you always wanted to know about multicore graph processing but were afraid to ask, https://www.usenix.org/conference/atc17/technical-sessions/presentation/malicevic (https://github.com/jmalicevic/EverythingGraph) 
+
   
 ### Performance, Efficiency, Scalability (mostly with OS/APIs) 
   * I/O Passthru: Upstreaming a flexible and efficient I/O Path in Linux, https://www.usenix.org/system/files/fast24-joshi.pdf
