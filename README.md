@@ -36,9 +36,12 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Enabling NVMe WRR support in Linux Block Layer,https://www.usenix.org/conference/hotstorage17/program/presentation/joshi 
   * BFQ, Multiqueue-Deadline, or Kyber? Performance Characterization of Linux Storage Schedulers in the NVMe Era, https://dl.acm.org/doi/10.1145/3629526.3645053
   * Do we still need IO schedulers for low-latency disks? https://dl.acm.org/doi/10.1145/3599691.3603400
+  * Liuying Ma, Zhenqing Liu, Jin Xiong, Yue Wu, Renhai Chen, Xi Peng, Ying Zhang, Gong Zhang, Dejun Jiang. 2024. zQoS: Unleashing full performance capabilities of NVMe SSDs while enforcing SLOs in distributed storage systems. In Proceedings of the 53rd International Conference on Parallel Processing.
+    https://dl.acm.org/doi/abs/10.1145/3673038.3673156
+  * Shucheng Wang, Kaiye Zhou, Zhandong Guo, Qiang Cao, Jun Xu, Jie Yao. 2024. SIndex: An SSD-based Large-scale Indexing with Deterministic Latency for Cloud Block Storage. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673041
 
 ### File Systems 
-  * 
+  * Kan Zhong, Zhiwang Yu, Qiao Li, Xianqiang Luo, Linbo Long, Yujian Tan, Ao Ren, Duo Liu. 2024. DPC: DPU-accelerated High-Performance File System Client. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673123
 
 ### Key-Value Storage 
   * Stratos Idreos and Mark Callaghan. 2020. Key-Value Storage Engines. In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (SIGMOD '20). Association for Computing Machinery, New York, NY, USA, 2667–2672. https://doi.org/10.1145/3318464.3383133 
@@ -47,7 +50,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
      * A good fundamental work that discusses that a single data structure cannot provide most optimal performance for all three types of operations
   * https://www.vldb.org/pvldb/vol14/p2216-sarkar.pdf, Constructing and Analyzing the LSM Compaction Design Space
   * DComp: Efficient Offload of LSM-tree Compaction with Data Processing Units, https://dl.acm.org/doi/abs/10.1145/3605573.3605633 
-
+* Ruisong Zhou, Yuzhan Zhang, Chunhua Li, Ke Zhou, Peng Wang, Gong Zhang, Ji Zhang, Guangyu Zhang. 2024. HyperDB: a Novel Key Value Store for Reducing Background Traffic in Heterogeneous SSD Storage. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673153
 
 ### Storage Virtualization 
   *  MDev-NVMe (mediated passthrough): https://www.usenix.org/system/files/conference/atc18/atc18-peng.pdf
@@ -130,6 +133,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * FlatFS: Flatten Hierarchical File System Namespace on Non-volatile Memories, https://www.usenix.org/conference/atc22/presentation/cai 
   * Poseidon: Safe, Fast and Scalable Persistent Memory Allocator (Middleware, 2020), https://dl.acm.org/doi/10.1145/3423211.3425671 
   * Persistent State Machines for Recoverable In-memory Storage Systems with NVRam,  https://www.usenix.org/conference/osdi20/presentation/zhang-wen
+  * Wenda Tang, Ying Han, Tianxiang Ai, Guanghui Li, Bin Yu, Xin Yang. 2024. Yggdrasil: Reducing Network I/O Tax with (CXL-Based) Distributed Shared Memory. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673138
 
 ### Networked/distributed Flash/NVMoF  
   * RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design, https://dl.acm.org/doi/10.1145/3600006.3613170
@@ -156,7 +160,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 
 ### New systems architectures 
   * FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs https://www.usenix.org/system/files/atc22-wang-zeke.pdf 
-
+  * Gabin Schieffer, Jacob Wahlgren, Jie Ren, Jennifer Faj, Ivy Peng. 2024. Harnessing Integrated CPU-GPU System Memory for HPC: a first look into Grace Hopper. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673110
 ### New flash storage interfaces
 
 #### ZNS: Explanations, research directions and ZNS extensions
@@ -170,6 +174,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 * Tehrany, N., & Trivedi, A. (2022). Understanding NVMe Zoned Namespace (ZNS) Flash SSD Storage Devices. arXiv preprint arXiv:2206.01547. https://arxiv.org/abs/2206.01547 A systemic analysis of integration options, current software support and initial performance measurements for ZNS.
 * Bae, H., Kim, J., Kwon, M., & Jung, M. (2022, June). What you can't forget: exploiting parallelism for zoned namespaces. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (pp. 79-85). https://dl.acm.org/doi/abs/10.1145/3538643.3539744 Discussion of ZNS benefits and how ZNS zone-to-zone relationships affect internal parallelism/performance, also how schedulers can solve such isssues.
 * Zoned Namespaces Use Cases, Standard and Linux Ecosystem. Samsung, 2020 SNIA. https://www.snia.org/sites/default/files/SDCEMEA/2020/3%20-%20Javier%20Gonzalez%20Zoned%20namespacese.PDF 
+* Renping Liu, Junhua Chen, Peng Chen, Linbo Long, Anping Xiong, Duo Liu. 2024. Hi-ZNS: High Space Efficiency and Zero-Copy LSM-tree-based Stores on ZNS SSDs. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673096
 
 #### ZNS: Specific applications/software modified for ZNS
 * Choi, G., Lee, K., Oh, M., Choi, J., Jhin, J., & Oh, Y. (2020). A New LSM-style Garbage Collection Scheme for ZNS SSDs. In 12th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage 20). https://www.usenix.org/conference/hotstorage20/presentation/choi
