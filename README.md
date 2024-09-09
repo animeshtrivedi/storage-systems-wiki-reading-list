@@ -71,6 +71,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * 
 
 ### Programmable storage, acceleration, offloading, computational storage, workload-specific storage
+  * PreSto: An In-Storage Data Preprocessing System for Training Recommendation Models, https://ieeexplore.ieee.org/document/10609715 (ISCA 2024) 
   * DeepStore: In-Storage Acceleration for Intelligent Queries. In Proceedings of the 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '52). Association for Computing Machinery, New York, NY, USA, 224–238. https://doi.org/10.1145/3352460.3358320 
   * Alberto Lerner and Philippe Bonnet. 2021. Not your Grandpa's SSD: The Era of Co-Designed Storage Devices. In Proceedings of the 2021 International Conference on Management of Data (SIGMOD '21). Association for Computing Machinery, New York, NY, USA, 2852–2858. https://doi.org/10.1145/3448016.3457540
   * DAPHNE: An Open and Extensible System Infrastructure for Integrated Data Analysis Pipelines, https://pure.itu.dk/ws/files/86467917/CIDR2022.pdf 
@@ -82,7 +83,9 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Cost-effective, Energy-efficient, and Scalable Storage Computing for Large-scale AI Applications. ACM Trans. Storage 16, 4, Article 21 (November 2020), 37 pages. https://doi.org/10.1145/3415580 
   * SmartSAGE: training large-scale graph neural networks using in-storage processing architectures. In Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for Computing Machinery, New York, NY, USA, 932–945. https://doi.org/10.1145/3470496.3527391
   * An Analytical Model-based Capacity Planning Approach for Building CSD-based Storage Systems. ACM Trans. Embed. Comput. Syst. Just Accepted (September 2023). https://doi.org/10.1145/3623677
-  * Scalable Billion-point Approximate Nearest Neighbor Search Using SmartSSDs, https://www.usenix.org/conference/atc24/presentation/tian 
+  * Scalable Billion-point Approximate Nearest Neighbor Search Using SmartSSDs, https://www.usenix.org/conference/atc24/presentation/tian
+
+ 
 
 #### Graphs      
   * **Collection of papers projects:** https://github.com/dnasc/graph-processing
