@@ -24,6 +24,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Theano Stavrinos, Daniel S. Berger, Ethan Katz-Bassett, and Wyatt Lloyd. 2021. Don't be a blockhead: zoned namespaces make work on conventional SSDs obsolete. In Proceedings of the Workshop on Hot Topics in Operating Systems (HotOS '21). Association for Computing Machinery, New York, NY, USA, 144–151. https://doi.org/10.1145/3458336.3465300
      * ZNS is the new and exciting interface for NVM storage. It is also quite fundamental as the paper argues that it solves or makes old problems with flash useless. A good fun read (plus, summarizes a decade worth of research effort in managing flash)  
   * FlatFlash: Exploiting the Byte-Accessibility of SSDs within a Unified Memory-Storage Hierarchy, ASPLOS 2019, https://dl-acm-org.vu-nl.idm.oclc.org/doi/abs/10.1145/3297858.3304061  * 
+  * Guanzhou Hu, Andrea Arpaci-Dusseau, and Remzi Arpaci-Dusseau. 2024. Foreactor: Exploiting Storage I/O Parallelism with Explicit Speculation. arXiv:2409.01580. https://arxiv.org/abs/2409.01580
 
 ### Flash I/O Scheduling and quality-of-service/multi-tenancy 
   * BlockFlex: Enabling Storage Harvesting with Software-Defined Flash in Modern Cloud Platforms, OSDI 2022. https://www.usenix.org/conference/osdi22/presentation/reidys 
@@ -51,6 +52,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * https://www.vldb.org/pvldb/vol14/p2216-sarkar.pdf, Constructing and Analyzing the LSM Compaction Design Space
   * DComp: Efficient Offload of LSM-tree Compaction with Data Processing Units, https://dl.acm.org/doi/abs/10.1145/3605573.3605633 
 * Ruisong Zhou, Yuzhan Zhang, Chunhua Li, Ke Zhou, Peng Wang, Gong Zhang, Ji Zhang, Guangyu Zhang. 2024. HyperDB: a Novel Key Value Store for Reducing Background Traffic in Heterogeneous SSD Storage. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673153
+* Hao Wang, Jiaxin Ou, Ming Zhao, Sheng Qiu, Yizheng Jiao, Yi Wang, Qizhong Mao, Zhengyu Yang, Yang Liu, Jianshun Zhang et al. 2024. LavaStore: ByteDance’s Purpose-built, High-performance, Cost-effective Local Storage Engine for Cloud Services. PVLDB 17(12). https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf
 
 ### Storage Virtualization 
   *  MDev-NVMe (mediated passthrough): https://www.usenix.org/system/files/conference/atc18/atc18-peng.pdf
@@ -137,13 +139,14 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Poseidon: Safe, Fast and Scalable Persistent Memory Allocator (Middleware, 2020), https://dl.acm.org/doi/10.1145/3423211.3425671 
   * Persistent State Machines for Recoverable In-memory Storage Systems with NVRam,  https://www.usenix.org/conference/osdi20/presentation/zhang-wen
   * Wenda Tang, Ying Han, Tianxiang Ai, Guanghui Li, Bin Yu, Xin Yang. 2024. Yggdrasil: Reducing Network I/O Tax with (CXL-Based) Distributed Shared Memory. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673138
+  * Qizhen Zhang, Philip A. Bernstein, Badrish Chandramouli, Jiasheng Hu, Yiming Zheng. 2024. DDS: DPU-optimized Disaggregated Storage. PVLDB, 17(11). https://www.vldb.org/pvldb/vol17/p3304-zhang.pdf 
+  * Minseon Ahn, Willhalm Thomas, Norman May, Donghun Lee, Suprasad Mutalik Desai, Daniel Booss, Jungmin Kim, Navneet Singh, Daniel Ritter, Oliver Rebholz. 2024. An Examination of CXL Memory Use Cases for In-Memory Database Management Systems using SAP HANA. PVLDB, 17(12). https://www.vldb.org/pvldb/vol17/p3827-ahn.pdf 
 
 ### Networked/distributed Flash/NVMoF  
   * RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design, https://dl.acm.org/doi/10.1145/3600006.3613170
   * Impact of Commodity Networks on Storage Disaggregation with NVMe-oF (2021) https://par.nsf.gov/servlets/purl/10299229
   * Arjun Kashyap and Xiaoyi Lu. 2022. NVMe-oAF: Towards Adaptive NVMe-oF for IO-Intensive Workloads on HPC Cloud. In Proceedings of the 31st International Symposium on High-Performance Parallel and Distributed Computing (HPDC '22). Association for Computing Machinery, New York, NY, USA, 56–70. https://doi.org/10.1145/3502181.3531476
   * Zvika Guz, Harry (Huan) Li, Anahita Shayesteh, and Vijay Balakrishnan. 2018. Performance Characterization of NVMe-over-Fabrics Storage Disaggregation. ACM Trans. Storage 14, 4, Article 31 (November 2018), 18 pages. https://doi.org/10.1145/3239563
-  * DDS: DPU-optimized Disaggregated Storage, https://arxiv.org/abs/2407.13618  
 
 ### Distributed/Cloud/Operating systems 
   * Reducing Minor Page Fault Overheads through Enhanced Page Walker, https://dl.acm.org/doi/full/10.1145/3547142
@@ -160,6 +163,9 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 ### Timeseries databases
   * Jalal Mostafa, Sara Wehbi, Suren Chilingaryan, Andreas Kopmann. 2022. SciTS: A Benchmark for Time-Series Databases in Scientific Experiments and Industrial Internet of Things. https://arxiv.org/abs/2204.09795v2
       * Paper describing a system for benchmarking the performance of timeseries databases. The paper generates data used to benchmark the performance of insertion and uses a few queries to test the performance of the querying engines.
+
+### Databases for NVMe
+  * Viktor Leis. 2024. LeanStore: A High-Performance Storage Engine for NVMe SSDs. PVLDB 17(12). https://www.vldb.org/pvldb/vol17/p4536-leis.pdf 
 
 ### New systems architectures 
   * FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs https://www.usenix.org/system/files/atc22-wang-zeke.pdf 
