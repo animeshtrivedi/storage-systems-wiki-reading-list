@@ -164,12 +164,14 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Jalal Mostafa, Sara Wehbi, Suren Chilingaryan, Andreas Kopmann. 2022. SciTS: A Benchmark for Time-Series Databases in Scientific Experiments and Industrial Internet of Things. https://arxiv.org/abs/2204.09795v2
       * Paper describing a system for benchmarking the performance of timeseries databases. The paper generates data used to benchmark the performance of insertion and uses a few queries to test the performance of the querying engines.
 
-### Databases for NVMe
-  * Viktor Leis. 2024. LeanStore: A High-Performance Storage Engine for NVMe SSDs. PVLDB 17(12). https://www.vldb.org/pvldb/vol17/p4536-leis.pdf 
+### NVMe and Databases 
+  * Viktor Leis. 2024. LeanStore: A High-Performance Storage Engine for NVMe SSDs. PVLDB 17(12). https://www.vldb.org/pvldb/vol17/p4536-leis.pdf
+  * What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines https://www.vldb.org/pvldb/vol16/p2090-haas.pdf
 
 ### New systems architectures 
   * FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs https://www.usenix.org/system/files/atc22-wang-zeke.pdf 
   * Gabin Schieffer, Jacob Wahlgren, Jie Ren, Jennifer Faj, Ivy Peng. 2024. Harnessing Integrated CPU-GPU System Memory for HPC: a first look into Grace Hopper. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673110
+
 ### New flash storage interfaces
 
 #### ZNS: Explanations, research directions and ZNS extensions
@@ -235,7 +237,8 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * 
 
 ### ML and (Storage) Systems 
-  * https://proceedings.mlsys.org/
+  * Adding NVMe SSDs to Enable and Accelerate 100B Model Fine-tuning on a Single GPU, https://arxiv.org/pdf/2403.06504 
+  * Tectonic-Shift: A Composite Storage Fabric for LargeScale ML Training https://www.usenix.org/system/files/atc23-zhao.pdf 
   * CheckFreq: Frequent, Fine-Grained DNN Checkpointing, https://www.usenix.org/conference/fast21/presentation/mohan
   * Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models, https://www.usenix.org/conference/nsdi22/presentation/eisenman
   * Characterization of Large Language Model Development in the Datacenter, https://www.usenix.org/conference/nsdi24/presentation/hu
@@ -244,18 +247,13 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * PipeDream: generalized pipeline parallelism for DNN training. In Proceedings of the 27th ACM Symposium on Operating Systems Principles (SOSP '19). Association for Computing Machinery, New York, NY, USA, 1–15. https://doi.org/10.1145/3341301.3359646
   * PyTorch distributed: experiences on accelerating data parallel training. Proc. VLDB Endow. 13, 12 (August 2020), 3005–3018. https://doi.org/10.14778/3415478.3415530
   * Analyzing and mitigating data stalls in DNN training. Proc. VLDB Endow. 14, 5 (January 2021), 771–784. https://doi.org/10.14778/3446095.3446100
- 
+  * https://proceedings.mlsys.org/ 
 
 ### A selection of storage related surveys 
-[2023] 
   * A Survey on the Integration of NAND Flash Storage in the Design of File Systems and the Host Storage Software Stack, Nick Tehrany, Krijn Doekemeijer, Animesh Trivedi, https://arxiv.org/abs/2307.11866 
-
-[2022]
   * Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.
   * Persistent Memory File Systems: A Survey, Wiebe van Breukelen, https://drive.google.com/file/d/1EF-tTEDwYYoFOzywlC-STLqHYlGmyGDx/view
   * http://madsys.cs.tsinghua.edu.cn/publications/TPDS2022-ma.pdf, a Survey of Storage Systems in the RDMA Era.
   * Survey of Distributed File System Design Choices, https://dl.acm.org/doi/pdf/10.1145/3465405
-
-[prior] 
   * Athanasios Fevgas, Leonidas Akritidis, Panayiotis Bozanis, and Yannis Manolopoulos. 2020. Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
      * One of the most comprehensive and well-written surveys on indexing data structures on flash storage 
