@@ -172,6 +172,9 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 
       
 ### Database, VectorDB, Lookup, Indexes on Storage  
+  * Are There Fundamental Limitations in Supporting Vector Data Management in Relational Databases? A Case Study of PostgreSQL. Proceedings of International Conference on Data Engineering (ICDE), 2024.
+  * Vector Database Management Techniques and Systems. In Companion of the 2024 International Conference on Management of Data (SIGMOD/PODS '24). Association for Computing Machinery, New York, NY, USA, 597–604. https://doi.org/10.1145/3626246.3654691
+  * Milvus: A Purpose-Built Vector Data Management System. In Proceedings of the 2021 International Conference on Management of Data (SIGMOD '21). Association for Computing Machinery, New York, NY, USA, 2614–2627. https://doi.org/10.1145/3448016.3457550
   * Vexless: A Serverless Vector Data Management System Using Cloud Functions. Proc. ACM Manag. Data 2, 3, Article 187 (June 2024), 26 pages. https://doi.org/10.1145/3654990
   * Limousine: Blending Learned and Classical Indexes to Self-Design Larger-than-Memory Cloud Storage Engines. Proc. ACM Manag. Data 2, 1, Article 47 (February 2024), 28 pages. https://doi.org/10.1145/3639302
     * We present Limousine, a self-designing key-value storage engine, that can automatically morph to the near-optimal storage engine architecture shape given a workload, a cloud budget, and target performance
@@ -264,6 +267,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * https://proceedings.mlsys.org/ 
 
 ### A selection of storage related surveys 
+  * 2024 - Survey of vector database management systems. The VLDB Journal 33, 5 (Sep 2024), 1591–1615. https://doi.org/10.1007/s00778-024-00864-x 
   * 2023 -  A Survey on the Integration of NAND Flash Storage in the Design of File Systems and the Host Storage Software Stack, Nick Tehrany, Krijn Doekemeijer, Animesh Trivedi, https://arxiv.org/abs/2307.11866 
   * 2022 - Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.
   * 2023 - Persistent Memory File Systems: A Survey, Wiebe van Breukelen, https://drive.google.com/file/d/1EF-tTEDwYYoFOzywlC-STLqHYlGmyGDx/view
