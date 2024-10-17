@@ -45,7 +45,9 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Kan Zhong, Zhiwang Yu, Qiao Li, Xianqiang Luo, Linbo Long, Yujian Tan, Ao Ren, Duo Liu. 2024. DPC: DPU-accelerated High-Performance File System Client. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673123
 
 ### Key-Value Storage 
-  * Stratos Idreos and Mark Callaghan. 2020. Key-Value Storage Engines. In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (SIGMOD '20). Association for Computing Machinery, New York, NY, USA, 2667–2672. https://doi.org/10.1145/3318464.3383133 
+  * Structural Designs Meet Optimality: Exploring Optimized LSM-tree Structures in a Colossal Configuration Space. Proc. ACM Manag. Data 2, 3, Article 175 (June 2024), 26 pages. https://doi.org/10.1145/3654978
+  * MirrorKV: An Efficient Key-Value Store on Hybrid Cloud Storage with Balanced Performance of Compaction and Querying, https://dl.acm.org/doi/10.1145/3626736.     
+  * Key-Value Storage Engines. In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (SIGMOD '20). Association for Computing Machinery, New York, NY, USA, 2667–2672. https://doi.org/10.1145/3318464.3383133 
      * A small write up summarizing (2020) the current popular indexing structures about KV data structures 
   * Designing Access Methods: The RUM Conjecture (Read, Update, and Memory): https://stratos.seas.harvard.edu/files/stratos/files/rum.pdf
      * A good fundamental work that discusses that a single data structure cannot provide most optimal performance for all three types of operations
@@ -67,7 +69,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 * Amber https://ieeexplore.ieee.org/abstract/document/8574562  and for ZNS: https://ieeexplore.ieee.org/abstract/document/996440
 * Wear distributions in FF-SSD: https://dl.acm.org/doi/abs/10.1145/3538643.3539757 
 * Nameless writes had an emulator. How does it work? https://www.usenix.org/legacy/event/fast12/tech/full_papers/Zhang2-7-12.pdf 
-* Goliath allows evaluating large (1TB at that time) workloads on small disks without performance gaps.
+  * Goliath allows evaluating large (1TB at that time) workloads on small disks without performance gaps.
 
 ### Reliability and failures studies  
   * 
@@ -89,7 +91,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 
  
 
-#### Graphs      
+### Graphs Storage and Processing Systems 
   * **Collection of papers projects:** https://github.com/dnasc/graph-processing
   * **Graph Generators:** https://github.com/yuanqidu/awesome-graph-generation
   * **Search:** https://github.com/search?q=awesome-graph&type=repositories
@@ -123,14 +125,15 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Diego Didona, Jonas Pfefferle, Nikolas Ioannou, Bernard Metzler, and Animesh Trivedi. 2022. Understanding modern storage APIs: a systematic study of libaio, SPDK, and io_uring. In Proceedings of the 15th ACM International Conference on Systems and Storage (SYSTOR '22). Association for Computing Machinery, New York, NY, USA, 120–127. https://doi.org/10.1145/3534056.3534945
   * Gabriel Haas and Viktor Leis. 2023. What Modern NVMe Storage Can Do, and How to Exploit it: High-Performance I/O for High-Performance Storage Engines. Proc. VLDB Endow. 16, 9 (May 2023), 2090–2102. https://doi.org/10.14778/3598581.3598584
   * Zebin Ren and Animesh Trivedi. 2023. Performance Characterization of Modern Storage Stacks: POSIX I/O, libaio, SPDK, and io_uring. In Proceedings of the 3rd Workshop on Challenges and Opportunities of Efficient and Performant Storage Systems (CHEOPS '23). Association for Computing Machinery, New York, NY, USA, 35–45. https://doi.org/10.1145/3578353.3589545
-  * 
 
 ### Persistent Memories / disaggregation / CXL 
-  * Peter Desnoyers, Ian Adams, Tyler Estro, Anshul Gandhi, Geoff Kuenning, Mike Mesnier, Carl Waldspurger, Avani Wildani, and Erez Zadok. 2023. Persistent Memory Research in the Post-Optane Era. In Proceedings of the 1st Workshop on Disruptive Memory Systems (DIMES '23). Association for Computing Machinery, New York, NY, USA, 23–30. https://doi.org/10.1145/3609308.3625268 
-  * Hasan Al Maruf, Hao Wang, Abhishek Dhanotia, Johannes Weiner, Niket Agarwal, Pallab Bhattacharya, Chris Petersen, Mosharaf Chowdhury, Shobhit Kanaujia, and Prakash Chauhan. 2023. TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 742–755. https://doi.org/10.1145/3582016.3582063 
-  * Huaicheng Li, Daniel S. Berger, Lisa Hsu, Daniel Ernst, Pantea Zardoshti, Stanko Novakovic, Monish Shah, Samir Rajadnya, Scott Lee, Ishwar Agarwal, Mark D. Hill, Marcus Fontoura, and Ricardo Bianchini. 2023. Pond: CXL-Based Memory Pooling Systems for Cloud Platforms. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 574–587. https://doi.org/10.1145/3575693.3578835 
-  * Miryeong Kwon, Sangwon Lee, and Myoungsoo Jung. 2023. Cache in Hand: Expander-Driven CXL Prefetcher for Next Generation CXL-SSD. In Proceedings of the 15th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '23). Association for Computing Machinery, New York, NY, USA, 24–30. https://doi.org/10.1145/3599691.3603406 
-  * Myoungsoo Jung. 2022. Hello bytes, bye blocks: PCIe storage meets compute express link for memory expansion (CXL-SSD). In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '22). Association for Computing Machinery, New York, NY, USA, 45–51. https://doi.org/10.1145/3538643.3539745 
+  * Anchor: A Library for Building Secure Persistent Memory Systems. Proc. ACM Manag. Data 1, 4, Article 231 (December 2023), 31 pages. https://doi.org/10.1145/3626718. 
+  * Scalable Distributed Inverted List Indexes in Disaggregated Memory. Proc. ACM Manag. Data 2, 3, Article 171 (June 2024), 27 pages. https://doi.org/10.1145/3654974
+  * Persistent Memory Research in the Post-Optane Era. In Proceedings of the 1st Workshop on Disruptive Memory Systems (DIMES '23). Association for Computing Machinery, New York, NY, USA, 23–30. https://doi.org/10.1145/3609308.3625268 
+  * TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 742–755. https://doi.org/10.1145/3582016.3582063 
+  * Pond: CXL-Based Memory Pooling Systems for Cloud Platforms. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 574–587. https://doi.org/10.1145/3575693.3578835 
+  * Cache in Hand: Expander-Driven CXL Prefetcher for Next Generation CXL-SSD. In Proceedings of the 15th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '23). Association for Computing Machinery, New York, NY, USA, 24–30. https://doi.org/10.1145/3599691.3603406 
+  * Hello bytes, bye blocks: PCIe storage meets compute express link for memory expansion (CXL-SSD). In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '22). Association for Computing Machinery, New York, NY, USA, 45–51. https://doi.org/10.1145/3538643.3539745 
   * Jianguo Wang and Qizhen Zhang. 2023. Disaggregated Database Systems. In Companion of the 2023 International Conference on Management of Data (SIGMOD '23). Association for Computing Machinery, New York, NY, USA, 37–44. https://doi.org/10.1145/3555041.3589403 
   * Hasan Al Maruf and Mosharaf Chowdhury. 2023. Memory Disaggregation: Advances and Open Challenges. SIGOPS Oper. Syst. Rev. 57, 1 (June 2023), 29–37. https://doi.org/10.1145/3606557.3606562 
   * Marcos K. Aguilera, Emmanuel Amaro, Nadav Amit, Erika Hunhoff, Anil Yelam, and Gerd Zellweger. 2023. Memory disaggregation: why now and what are the challenges. SIGOPS Oper. Syst. Rev. 57, 1 (June 2023), 38–46. https://doi.org/10.1145/3606557.3606563
@@ -142,7 +145,9 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Qizhen Zhang, Philip A. Bernstein, Badrish Chandramouli, Jiasheng Hu, Yiming Zheng. 2024. DDS: DPU-optimized Disaggregated Storage. PVLDB, 17(11). https://www.vldb.org/pvldb/vol17/p3304-zhang.pdf 
   * Minseon Ahn, Willhalm Thomas, Norman May, Donghun Lee, Suprasad Mutalik Desai, Daniel Booss, Jungmin Kim, Navneet Singh, Daniel Ritter, Oliver Rebholz. 2024. An Examination of CXL Memory Use Cases for In-Memory Database Management Systems using SAP HANA. PVLDB, 17(12). https://www.vldb.org/pvldb/vol17/p3827-ahn.pdf 
 
-### Networked/distributed Flash/NVMoF  
+### Networked/distributed Flash/NVMoF/Storage Disaggregation   
+  * Understanding the Performance Implications of the Design Principles in Storage-Disaggregated Databases. Proc. ACM Manag. Data 2, 3, Article 180 (June 2024), 26 pages. https://doi.org/10.1145/3654983
+  * CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage Disaggregated Infrastructure. Proc. ACM Manag. Data 2, 3, Article 124 (June 2024), 28 pages. https://doi.org/10.1145/3654927 
   * RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design, https://dl.acm.org/doi/10.1145/3600006.3613170
   * Impact of Commodity Networks on Storage Disaggregation with NVMe-oF (2021) https://par.nsf.gov/servlets/purl/10299229 (https://dl.acm.org/doi/10.1007/978-3-030-71058-3_3) 
   * Arjun Kashyap and Xiaoyi Lu. 2022. NVMe-oAF: Towards Adaptive NVMe-oF for IO-Intensive Workloads on HPC Cloud. In Proceedings of the 31st International Symposium on High-Performance Parallel and Distributed Computing (HPDC '22). Association for Computing Machinery, New York, NY, USA, 56–70. https://doi.org/10.1145/3502181.3531476
@@ -151,7 +156,7 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 ### Distributed/Cloud/Operating systems 
   * Reducing Minor Page Fault Overheads through Enhanced Page Walker, https://dl.acm.org/doi/full/10.1145/3547142
   * BlockFlex: Enabling Storage Harvesting with Software-Defined Flash in Modern Cloud Platforms, https://my-henrys.github.io/papers/blockflex-osdi2022.pdf 
-
+  
 ### NVM storage and Energy consumption 
   * Sidharth Sundar, William Simpson, Jacob Higdon, Caeden Whitaker, Bryan Harris, and Nihat Altiparmak. 2023. Energy Implications of IO Interface Design Choices. In Proceedings of the 15th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '23). Association for Computing Machinery, New York, NY, USA, 58–64. https://doi.org/10.1145/3599691.3603411 
   * Bryan Harris and Nihat Altiparmak. When poll is more energy efficient than interrupt. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems, HotStorage ’22, page 59–64, New York, NY, USA, 2022. Association for Computing Machinery.  https://www.hotstorage.org/2022/slides/hotstorage22-paper44-presentation_slides.pdf
@@ -161,12 +166,20 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * Kargar, Saeed and Nawab, Faisal. Hamming Tree: The Case for Energy-Aware Indexing for NVMs. In Proceedings of the ACM on Management of Data. SIGMOD'2023. ACM New York, NY, USA, 2023. 
 
 ### Timeseries databases
+  * Time Series Representation for Visualization in Apache IoTDB. Proc. ACM Manag. Data 2, 1, Article 35 (February 2024), 26 pages. https://doi.org/10.1145/3639290
+  * MOST: Model-Based Compression with Outlier Storage for Time Series Data, (SIGMOD 2023) https://dl.acm.org/doi/10.1145/3626737.
   * Jalal Mostafa, Sara Wehbi, Suren Chilingaryan, Andreas Kopmann. 2022. SciTS: A Benchmark for Time-Series Databases in Scientific Experiments and Industrial Internet of Things. https://arxiv.org/abs/2204.09795v2
-      * Paper describing a system for benchmarking the performance of timeseries databases. The paper generates data used to benchmark the performance of insertion and uses a few queries to test the performance of the querying engines.
 
-### NVMe and Databases 
+      
+### Database, VectorDB, Lookup, Indexes on Storage  
+  * Vexless: A Serverless Vector Data Management System Using Cloud Functions. Proc. ACM Manag. Data 2, 3, Article 187 (June 2024), 26 pages. https://doi.org/10.1145/3654990
+  * Limousine: Blending Learned and Classical Indexes to Self-Design Larger-than-Memory Cloud Storage Engines. Proc. ACM Manag. Data 2, 1, Article 47 (February 2024), 28 pages. https://doi.org/10.1145/3639302
+    * We present Limousine, a self-designing key-value storage engine, that can automatically morph to the near-optimal storage engine architecture shape given a workload, a cloud budget, and target performance
   * Viktor Leis. 2024. LeanStore: A High-Performance Storage Engine for NVMe SSDs. PVLDB 17(12). https://www.vldb.org/pvldb/vol17/p4536-leis.pdf
   * What Modern NVMe Storage Can Do, And How To Exploit It: High-Performance I/O for High-Performance Storage Engines https://www.vldb.org/pvldb/vol16/p2090-haas.pdf
+  * AirIndex: Versatile Index Tuning Through Data and Storage, https://dl.acm.org/doi/10.1145/3617308 
+  * Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment. Proc. ACM Manag. Data 2, 1, Article 14 (February 2024), 27 pages. https://doi.org/10.1145/3639269
+
 
 ### New systems architectures 
   * FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs https://www.usenix.org/system/files/atc22-wang-zeke.pdf 
@@ -213,7 +226,8 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
 ### SNIA/NVMe weblinks 
   * 2023: FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf, https://nvmexpress.org/wp-content/uploads/FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf
 
-### Traces, profiling, monitoring, and characterization 
+### benchmarking, traces, profiling, monitoring, and characterization 
+  * LST-Bench: Benchmarking Log-Structured Tables in the Cloud. Proc. ACM Manag. Data 2, 1, Article 59 (February 2024), 26 pages. https://doi.org/10.1145/3639314. 
   * Phitchaya Mangpo Phothilimthana, Saurabh Kadekodi, Soroush Ghodrati, Selene Moon, and Martin Maas. 2024. Thesios: Synthesizing Accurate Counterfactual I/O Traces from I/O Samples. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS '24), Vol. 3. Association for Computing Machinery, New York, NY, USA, 1016–1032. https://doi.org/10.1145/3620666.3651337
   * Jinhong Li, Qiuping Wang, Patrick P. C. Lee, and Chao Shi. 2023. An In-depth Comparative Analysis of Cloud Block Storage Workloads: Findings and Implications. ACM Trans. Storage 19, 2, Article 16 (May 2023), 32 pages. https://doi.org/10.1145/3572779
   * Gala Yadgar, MOSHE Gabel, Shehbaz Jaffer, and Bianca Schroeder. 2021. SSD-based Workload Characteristics and Their Performance Implications. ACM Trans. Storage 17, 1, Article 8 (February 2021), 26 pages. https://doi.org/10.1145/3423137
@@ -250,10 +264,10 @@ We are also collecting nice surveys we can find: https://github.com/stonet-resea
   * https://proceedings.mlsys.org/ 
 
 ### A selection of storage related surveys 
-  * A Survey on the Integration of NAND Flash Storage in the Design of File Systems and the Host Storage Software Stack, Nick Tehrany, Krijn Doekemeijer, Animesh Trivedi, https://arxiv.org/abs/2307.11866 
-  * Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.
-  * Persistent Memory File Systems: A Survey, Wiebe van Breukelen, https://drive.google.com/file/d/1EF-tTEDwYYoFOzywlC-STLqHYlGmyGDx/view
-  * http://madsys.cs.tsinghua.edu.cn/publications/TPDS2022-ma.pdf, a Survey of Storage Systems in the RDMA Era.
-  * Survey of Distributed File System Design Choices, https://dl.acm.org/doi/pdf/10.1145/3465405
-  * Athanasios Fevgas, Leonidas Akritidis, Panayiotis Bozanis, and Yannis Manolopoulos. 2020. Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
-     * One of the most comprehensive and well-written surveys on indexing data structures on flash storage 
+  * 2023 -  A Survey on the Integration of NAND Flash Storage in the Design of File Systems and the Host Storage Software Stack, Nick Tehrany, Krijn Doekemeijer, Animesh Trivedi, https://arxiv.org/abs/2307.11866 
+  * 2022 - Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.
+  * 2023 - Persistent Memory File Systems: A Survey, Wiebe van Breukelen, https://drive.google.com/file/d/1EF-tTEDwYYoFOzywlC-STLqHYlGmyGDx/view
+  * 2022 - A Survey of Storage Systems in the RDMA Era, https://dl.acm.org/doi/10.1109/TPDS.2022.3188656.
+  * 2022 - Survey of Distributed File System Design Choices, https://dl.acm.org/doi/pdf/10.1145/3465405
+  * 2020 - Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
+  * 2014 - A survey of address translation technologies for flash memories, https://dl.acm.org/doi/10.1145/2512961 
