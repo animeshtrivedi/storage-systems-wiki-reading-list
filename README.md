@@ -130,7 +130,14 @@ month = {May}
   * Persistent State Machines for Recoverable In-memory Storage Systems with NVRam,  https://www.usenix.org/conference/osdi20/presentation/zhang-wen
   * Wenda Tang, Ying Han, Tianxiang Ai, Guanghui Li, Bin Yu, Xin Yang. 2024. Yggdrasil: Reducing Network I/O Tax with (CXL-Based) Distributed Shared Memory. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673138
   * Qizhen Zhang, Philip A. Bernstein, Badrish Chandramouli, Jiasheng Hu, Yiming Zheng. 2024. DDS: DPU-optimized Disaggregated Storage. PVLDB, 17(11). https://www.vldb.org/pvldb/vol17/p3304-zhang.pdf 
-  * Minseon Ahn, Willhalm Thomas, Norman May, Donghun Lee, Suprasad Mutalik Desai, Daniel Booss, Jungmin Kim, Navneet Singh, Daniel Ritter, Oliver Rebholz. 2024. An Examination of CXL Memory Use Cases for In-Memory Database Management Systems using SAP HANA. PVLDB, 17(12). https://www.vldb.org/pvldb/vol17/p3827-ahn.pdf 
+  * Minseon Ahn, Willhalm Thomas, Norman May, Donghun Lee, Suprasad Mutalik Desai, Daniel Booss, Jungmin Kim, Navneet Singh, Daniel Ritter, Oliver Rebholz. 2024. An Examination of CXL Memory Use Cases for In-Memory Database Management Systems using SAP HANA. PVLDB, 17(12). https://www.vldb.org/pvldb/vol17/p3827-ahn.pdf
+  * SPMFS: A Scalable Persistent Memory File System on Optane Persistent Memory. In Proceedings of the 50th International Conference on Parallel Processing (ICPP '21). Association for Computing Machinery, New York, NY, USA, Article 3, 1–10. https://doi.org/10.1145/3472456.3472503
+  * A Survey of Non-Volatile Main Memory File Systems, https://jcst.ict.ac.cn/en/article/pdf/preview/10.1007/s11390-023-1054-3.pdf (https://link.springer.com/article/10.1007/s11390-023-1054-3) 
+  * Ziggurat: A Tiered File System for Non-Volatile Main Memories and Disks https://www.usenix.org/conference/fast19/presentation/zheng
+    > FileBench, RocksDB, SQLite, MySQL
+  * Characterizing the performance of intel optane persistent memory: a close look at its on-DIMM buffering. In Proceedings of the Seventeenth European Conference on Computer Systems (EuroSys '22). Association for Computing Machinery, New York, NY, USA, 488–505. https://doi.org/10.1145/3492321.3519556
+  * "CFFS: A Persistent Memory File System for Contiguous File Allocation With Fine-Grained Metadata," in IEEE Access, vol. 10, pp. 91678-91698, 2022, doi: 10.1109/ACCESS.2022.3202532 https://ieeexplore.ieee.org/abstract/document/9869672 
+
 
 ## 7. Networked/distributed Flash/NVMoF/Storage Disaggregation   
   * Towards Resource Efficiency: Practical Insights into Large-Scale Spark Workloads at ByteDance. PVLDB, 17(12): 3759-3771, 2024. doi:10.14778/3685800.3685804
@@ -358,7 +365,8 @@ month = {May}
   * Jayanta Basak, Kushal Wadhwani, and Kaladhar Voruganti. 2016. Storage Workload Identification. ACM Trans. Storage 12, 3, Article 14 (June 2016), 30 pages. https://doi.org/10.1145/2818716
   * Ajay Gulati, Chethan Kumar, and Irfan Ahmad. Storage workload characterization and consolidation in virtualized environments. In Proc. Int'l Workshop on Virtualization Performance: Analysis, Characterization, and Tools (VPACT'09), 2009.
   * Bin Yang, Wei Xue, Tianyu Zhang, Shichao Liu, Xiaosong Ma, Xiyang Wang, and Weiguo Liu. 2023. End-to-end I/O Monitoring on Leading Supercomputers. ACM Trans. Storage 19, 1, Article 3 (February 2023), 35 pages. https://doi.org/10.1145/3568425 (NSDI: https://www.usenix.org/conference/nsdi19/presentation/yang)
-  * V. Tarasov, S. Kumar, J. Ma, D. Hildebrand, A. Povzner, G. Kuenning, and E. Zadok. 2012. Extracting flexible, replayable models from large block traces. In Proceedings of the 10th USENIX conference on File and Storage Technologies (FAST'12). USENIX Association, USA, 22. https://static.usenix.org/events/fast12/tech/full_papers/Tarasov.pdf 
+  * V. Tarasov, S. Kumar, J. Ma, D. Hildebrand, A. Povzner, G. Kuenning, and E. Zadok. 2012. Extracting flexible, replayable models from large block traces. In Proceedings of the 10th USENIX conference on File and Storage Technologies (FAST'12). USENIX Association, USA, 22. https://static.usenix.org/events/fast12/tech/full_papers/Tarasov.pdf
+  * COSBench: cloud object storage benchmark. In Proceedings of the 4th ACM/SPEC International Conference on Performance Engineering (ICPE '13). Association for Computing Machinery, New York, NY, USA, 199–210. https://doi.org/10.1145/2479871.2479900
     
 ## 20. RAID, Compression, De-duplication 
   * Ziyang Jiao and Bryan S. Kim. 2024. Asymmetric RAID: Rethinking RAID for SSD Heterogeneity. In Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '24). Association for Computing Machinery, New York, NY, USA, 101–107. https://doi.org/10.1145/3655038.3665952
