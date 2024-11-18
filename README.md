@@ -73,6 +73,9 @@ month = {May}
     > Datacenter NVMe® SSD Specification, https://www.opencompute.org/documents/datacenter-nvme-ssd-specification-v2-0r21-pdf
  
 ## 3. SSD internals (FTL, GC, buffering, staging, scheduling)
+  * HMB-SSD: Framework for Efficient Exploiting of the Host Memory Buffer in the NVMe SSD, https://ieeexplore.ieee.org/abstract/document/8868151 
+  * Improving Flash Storage Performance by Caching Address Mapping Table in Host Memory, https://www.usenix.org/conference/hotstorage17/program/presentation/jeong 
+  * Fantastic SSD internals and how to learn and use them. In Proceedings of the 15th ACM International Conference on Systems and Storage (SYSTOR '22). Association for Computing Machinery, New York, NY, USA, 72–84. https://doi.org/10.1145/3534056.3534940 
   * LavaStore: ByteDance’s Purpose-built, High-performance, Cost-effective Local Storage Engine for Cloud Services, https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf 
   *  Jinghan Sun, Shaobo Li, Yunxin Sun, Chao Sun, Dejan Vucinic, and Jian Huang. 2023. LeaFTL: A Learning-Based Flash Translation Layer for Solid-State Drives. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 442–456. https://doi.org/10.1145/3575693.3575744
   * Aayush Gupta, Youngjae Kim, and Bhuvan Urgaonkar. 2009. DFTL: a flash translation layer employing demand-based selective caching of page-level address mappings. In Proceedings of the 14th international conference on Architectural support for programming languages and operating systems (ASPLOS XIV). Association for Computing Machinery, New York, NY, USA, 229–240. https://doi.org/10.1145/1508244.1508271
@@ -112,7 +115,8 @@ month = {May}
   * CXL and the Return of Scale-Up Database Engines. Proc. VLDB Endow. 17, 10 (June 2024), 2568–2575. https://doi.org/10.14778/3675034.3675047
   * Anchor: A Library for Building Secure Persistent Memory Systems. Proc. ACM Manag. Data 1, 4, Article 231 (December 2023), 31 pages. https://doi.org/10.1145/3626718. 
   * Scalable Distributed Inverted List Indexes in Disaggregated Memory. Proc. ACM Manag. Data 2, 3, Article 171 (June 2024), 27 pages. https://doi.org/10.1145/3654974
-  * Persistent Memory Research in the Post-Optane Era. In Proceedings of the 1st Workshop on Disruptive Memory Systems (DIMES '23). Association for Computing Machinery, New York, NY, USA, 23–30. https://doi.org/10.1145/3609308.3625268 
+  * Persistent Memory Research in the Post-Optane Era. In Proceedings of the 1st Workshop on Disruptive Memory Systems (DIMES '23). Association for Computing Machinery, New York, NY, USA, 23–30. https://doi.org/10.1145/3609308.3625268
+  * A Comprehensive Empirical Study of File Systems on Optane Persistent Memory, https://ieeexplore.ieee.org/abstract/document/9605448 
   * TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 742–755. https://doi.org/10.1145/3582016.3582063 
   * Pond: CXL-Based Memory Pooling Systems for Cloud Platforms. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 574–587. https://doi.org/10.1145/3575693.3578835 
   * Cache in Hand: Expander-Driven CXL Prefetcher for Next Generation CXL-SSD. In Proceedings of the 15th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '23). Association for Computing Machinery, New York, NY, USA, 24–30. https://doi.org/10.1145/3599691.3603406 
@@ -241,13 +245,19 @@ month = {May}
   * Reducing Minor Page Fault Overheads through Enhanced Page Walker, https://dl.acm.org/doi/full/10.1145/3547142
   * BlockFlex: Enabling Storage Harvesting with Software-Defined Flash in Modern Cloud Platforms, https://www.usenix.org/conference/osdi22/presentation/reidys
 
-## 14. NVM storage and Energy consumption 
+## 14. NVM storage and Energy consumption   
+  * Can Storage Devices be Power Adaptive? https://theanoli.github.io/files/hotstorage24-xie.pdf
+  * EMPower: The Case for a Cloud Power Control Plane https://hotcarbon.org/assets/2024/pdf/hotcarbon24-final57.pdf
+  * The carbon footprint of distributed cloud storage https://arxiv.org/abs/1803.06973 (2019)
+  * On the Limitations of Carbon-Aware Temporal and Spatial Workload Shifting in the Cloud. In Proceedings of the Nineteenth European Conference on Computer Systems (EuroSys '24). Association for Computing Machinery, New York, NY, USA, 924–941. https://doi.org/10.1145/3627703.3650079
   * Energy Implications of IO Interface Design Choices. In Proceedings of the 15th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '23). Association for Computing Machinery, New York, NY, USA, 58–64. https://doi.org/10.1145/3599691.3603411 
   * When poll is more energy efficient than interrupt. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems, HotStorage ’22, page 59–64, New York, NY, USA, 2022. Association for Computing Machinery.  https://www.hotstorage.org/2022/slides/hotstorage22-paper44-presentation_slides.pdf
   * Ultra‐low latency ssds’ impact on overall energy efficiency. In Proceedings of the 12th USENIX Conference on Hot Topics in Storage and File Systems, HotStorage’20, USA, 2020. USENIX Association. https://www.usenix.org/system/files/hotstorage20-paper61-slides-harris.pdf
   * On the energy overhead of mobile storage systems. In Proceedings of the 12th USENIX Conference on File and Storage Technologies, FAST’14, page 105–118, USA, 2014. USENIX Association.
   * Storage on your smartphone uses more energy than you think. In Proceedings of the 9th USENIX Conference on Hot Topics in Storage and File Systems, HotStorage’17, page 9, USA, 2017. USENIX Association.
-  * Hamming Tree: The Case for Energy-Aware Indexing for NVMs. In Proceedings of the ACM on Management of Data. SIGMOD'2023. ACM New York, NY, USA, 2023. 
+  * Hamming Tree: The Case for Energy-Aware Indexing for NVMs. In Proceedings of the ACM on Management of Data. SIGMOD'2023. ACM New York, NY, USA, 2023.
+  * Treehouse: A Case For Carbon-Aware Datacenter Software. SIGENERGY Energy Inform. Rev. 3, 3 (October 2023), 64–70. https://doi.org/10.1145/3630614.3630626 
+
 
 ## 15. Database, Timeseries, VectorDB, Lookup, Indexes on Storage  
   * SingleStore-V: An Integrated Vector Database System in SingleStore, VLDB 2024, https://doi.org/10.14778/3685800.3685805 
@@ -328,6 +338,9 @@ month = {May}
 ## 18. SNIA/NVMe weblinks 
   * Storage Trends 2024: Your Questions Answered, https://sniablog.org/storage-trends-your-questions-answered/
   * 2023: FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf, https://nvmexpress.org/wp-content/uploads/FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf
+  * A Quick Tour of NVM Express (NVMe) https://metebalci.com/blog/a-quick-tour-of-nvm-express-nvme/
+  * https://mlcommons.org/working-groups/benchmarks/storage/ MLPerf Storage Working Group
+  * 
 
 ## 19. Benchmarking, traces, profiling, monitoring, and characterization 
   * LST-Bench: Benchmarking Log-Structured Tables in the Cloud. Proc. ACM Manag. Data 2, 1, Article 59 (February 2024), 26 pages. https://doi.org/10.1145/3639314. 
