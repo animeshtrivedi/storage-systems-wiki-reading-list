@@ -347,7 +347,7 @@ month = {May}
   * 2023: FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf, https://nvmexpress.org/wp-content/uploads/FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf
   * A Quick Tour of NVM Express (NVMe) https://metebalci.com/blog/a-quick-tour-of-nvm-express-nvme/
   * https://mlcommons.org/working-groups/benchmarks/storage/ MLPerf Storage Working Group
-  * 
+  * RocksDB* db_bench Tuning Guide on 3rd Generation Intel® Xeon® Scalable Processors Based Platform https://www.intel.com/content/www/us/en/content-details/686417/rocksdb-db-bench-tuning-guide-on-3rd-generation-intel-xeon-scalable-processors-based-platform.html 
 
 ## 19. Benchmarking, traces, profiling, monitoring, and characterization 
   * LST-Bench: Benchmarking Log-Structured Tables in the Cloud. Proc. ACM Manag. Data 2, 1, Article 59 (February 2024), 26 pages. https://doi.org/10.1145/3639314. 
