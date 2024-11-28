@@ -54,7 +54,7 @@ month = {May}
 20. [RAID, Compression, De-duplication](#20-raid-compression-de-duplication)
 21. [ML and (Storage) Systems](#21-ml-and-storage-systems)
 22. [A selection of storage related surveys](#22-a-selection-of-storage-related-surveys)
-23. [Company specific stacks]
+23. [Company specific stacks](#23-company-specific-stacks)
 
 ## 1. NVM storage, introduction, device-level details  
   * Michael Cornwell. 2012. Anatomy of a Solid-state Drive: While the ubiquitous SSD shares many features with the hard-disk drive, under the surface they are completely different. Queue 10, 10 (October 2012), 30–36. https://doi.org/10.1145/2381996.2385276
