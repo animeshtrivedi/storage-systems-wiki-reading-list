@@ -348,9 +348,14 @@ month = {May}
 ## 17.3 FDP 
   * J. Park, H. Kim, J. Ha, H. Jung and H. Eom, "FDPVirt: Flexible Data Placement SSD Emulator," 2024 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Kobe, Japan, 2024, pp. 198-199, doi: 10.1109/CLUSTERWorkshops61563.2024.00057. 
  
-## 18. SNIA/NVMe weblinks 
+## 18. SNIA/NVMe weblinks   
+  * 2024, How Meta trains large language models at scale, https://engineering.fb.com/2024/06/12/data-infrastructure/training-large-language-models-at-scale-meta/ 
+  * 2024, Storage for AI 101 - A Primer on AI Workloads and Their Storage Requirements, https://www.sniadeveloper.org/events/agenda/session/669
+  * 2024, Storage Requirements for AI Training and Checkpointing, https://www.snia.org/sites/default/files/SSSI/CMSS24/CMSS24-Cardente-Storage-Requirements-for-AI.pdf
+  * NVMe® Computational Storage: From Addressing Ransomware to Improving Bandwidth, https://nvmexpress.org/resource/nvme-computational-storage-from-addressing-ransomware-to-improving-bandwidth/ 
   * Storage Trends 2024: Your Questions Answered, https://sniablog.org/storage-trends-your-questions-answered/
   * 2023: FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf, https://nvmexpress.org/wp-content/uploads/FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf
+  * Exploring the Impact of System Storage on AI & ML Workloads via MLPerf Benchmark Suite, https://files.futurememorystorage.com/proceedings/2019/08-08-Thursday/20190808_AIML-301-1_Vaske.pdf 
   * A Quick Tour of NVM Express (NVMe) https://metebalci.com/blog/a-quick-tour-of-nvm-express-nvme/
   * https://mlcommons.org/working-groups/benchmarks/storage/ MLPerf Storage Working Group
   * RocksDB* db_bench Tuning Guide on 3rd Generation Intel® Xeon® Scalable Processors Based Platform https://www.intel.com/content/www/us/en/content-details/686417/rocksdb-db-bench-tuning-guide-on-3rd-generation-intel-xeon-scalable-processors-based-platform.html 
@@ -382,6 +387,7 @@ month = {May}
   * 
 
 ## 21. ML and (Storage) Systems 
+  * Understanding data storage and ingestion for large-scale deep recommendation model training: industrial product. In Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for Computing Machinery, New York, NY, USA, 1042–1057. https://doi.org/10.1145/3470496.3533044 
   * R. Macedo et al., "The Case for Storage Optimization Decoupling in Deep Learning Frameworks," 2021 IEEE International Conference on Cluster Computing (CLUSTER), Portland, OR, USA, 2021, pp. 649-656, doi: 10.1109/Cluster48925.2021.00096. https://ieeexplore.ieee.org/document/9556106
   * LLM in a flash: Efficient Large Language Model Inference with Limited Memory, https://arxiv.org/abs/2312.11514.
   * Adding NVMe SSDs to Enable and Accelerate 100B Model Fine-tuning on a Single GPU, https://arxiv.org/pdf/2403.06504 
@@ -404,4 +410,18 @@ month = {May}
   * 2022 - A Survey of Storage Systems in the RDMA Era, https://dl.acm.org/doi/10.1109/TPDS.2022.3188656.
   * 2022 - Survey of Distributed File System Design Choices, https://dl.acm.org/doi/pdf/10.1145/3465405
   * 2020 - Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
-  * 2014 - A survey of address translation technologies for flash memories, https://dl.acm.org/doi/10.1145/2512961 
+  * 2014 - A survey of address translation technologies for flash memories, https://dl.acm.org/doi/10.1145/2512961
+
+## 23. COmpany specific stack 
+  ### 23.1 Alibaba 
+    * "Optimizing NVMe Storage for Large-Scale Deployment: Key Technologies and Strategies in Alibaba Cloud," in IEEE Micro, vol. 44, no. 5, pp. 47-56, Sept.-Oct. 2024, doi: 10.1109/MM.2024.3426514.
+  ### 23.2 Baidu 
+    * CFS: Scaling Metadata Service for Distributed File System via Pruned Scope of Critical Sections. In Proceedings of the Eighteenth European Conference on Computer Systems (EuroSys '23). Association for Computing Machinery, New York, NY, USA, 331–346. https://doi.org/10.1145/3552326.3587443
+  ### 23.3 Meta 
+    * Facebook's Tectonic Filesystem: Efficiency from Exascale, https://www.usenix.org/conference/fast21/presentation/pan 
+    * Tectonic-Shift: A Composite Storage Fabric for Large-Scale ML Training, https://www.usenix.org/conference/atc23/presentation/zhao 
+
+
+
+
+    
