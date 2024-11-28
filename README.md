@@ -54,6 +54,7 @@ month = {May}
 20. [RAID, Compression, De-duplication](#20-raid-compression-de-duplication)
 21. [ML and (Storage) Systems](#21-ml-and-storage-systems)
 22. [A selection of storage related surveys](#22-a-selection-of-storage-related-surveys)
+23. [Company specific stacks]
 
 ## 1. NVM storage, introduction, device-level details  
   * Michael Cornwell. 2012. Anatomy of a Solid-state Drive: While the ubiquitous SSD shares many features with the hard-disk drive, under the surface they are completely different. Queue 10, 10 (October 2012), 30–36. https://doi.org/10.1145/2381996.2385276
@@ -414,23 +415,19 @@ month = {May}
   * 2020 - Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
   * 2014 - A survey of address translation technologies for flash memories, https://dl.acm.org/doi/10.1145/2512961
 
-## 23. Company specific stack and details (biased towards AI/ML) 
+## 23. Company-specific stacks 
+Biased towards AI/ML (duh!)  
+
   ### 23.1 Alibaba 
-    * "Optimizing NVMe Storage for Large-Scale Deployment: Key Technologies and Strategies in Alibaba Cloud," in IEEE Micro, vol. 44, no. 5, pp. 47-56, Sept.-Oct. 2024, doi: 10.1109/MM.2024.3426514.
+  * Optimizing NVMe Storage for Large-Scale Deployment: Key Technologies and Strategies in Alibaba Cloud, in IEEE Micro, vol. 44, no. 5, pp. 47-56, Sept.-Oct. 2024, doi: 10.1109/MM.2024.3426514. https://ieeexplore.ieee.org/document/10604820 
+
   ### 23.2 Baidu 
-    * CFS: Scaling Metadata Service for Distributed File System via Pruned Scope of Critical Sections. In Proceedings of the Eighteenth European Conference on Computer Systems (EuroSys '23). Association for Computing Machinery, New York, NY, USA, 331–346. https://doi.org/10.1145/3552326.3587443
+  * CFS: Scaling Metadata Service for Distributed File System via Pruned Scope of Critical Sections. In Proceedings of the Eighteenth European Conference on Computer Systems (EuroSys '23). Association for Computing Machinery, New York, NY, USA, 331–346. https://doi.org/10.1145/3552326.3587443
+  
   ### 23.3 Meta 
-    * Facebook's Tectonic Filesystem: Efficiency from Exascale, https://www.usenix.org/conference/fast21/presentation/pan 
-    * Tectonic-Shift: A Composite Storage Fabric for Large-Scale ML Training, https://www.usenix.org/conference/atc23/presentation/zhao 
-    * 2024, Training LlaMa - A Storage Perspective | Sumit Gupta & Robin Battey, https://www.facebook.com/atscaleevents/videos/training-llama-a-storage-perspective-sumit-gupta-robin-battey/1146039320066497/ 
-    * 2024, Building Meta’s GenAI Infrastructure, https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/ 
-    * 2022, Scaling data ingestion for machine learning training at Meta, https://engineering.fb.com/2022/09/19/ml-applications/data-ingestion-machine-learning-training-meta/ 
-    * The Llama 3 Herd of Models, https://arxiv.org/pdf/2407.21783, 2024.  
-
-
-
-
-
-
-
-    
+  * Facebook's Tectonic Filesystem: Efficiency from Exascale, https://www.usenix.org/conference/fast21/presentation/pan 
+  * Tectonic-Shift: A Composite Storage Fabric for Large-Scale ML Training, https://www.usenix.org/conference/atc23/presentation/zhao 
+  * 2024, Training LlaMa - A Storage Perspective | Sumit Gupta & Robin Battey, https://www.facebook.com/atscaleevents/videos/training-llama-a-storage-perspective-sumit-gupta-robin-battey/1146039320066497/ 
+  * 2024, Building Meta’s GenAI Infrastructure, https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/ 
+  * 2022, Scaling data ingestion for machine learning training at Meta, https://engineering.fb.com/2022/09/19/ml-applications/data-ingestion-machine-learning-training-meta/ 
+  * The Llama 3 Herd of Models, https://arxiv.org/pdf/2407.21783, 2024.    
