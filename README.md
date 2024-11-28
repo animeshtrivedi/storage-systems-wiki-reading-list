@@ -349,6 +349,8 @@ month = {May}
   * J. Park, H. Kim, J. Ha, H. Jung and H. Eom, "FDPVirt: Flexible Data Placement SSD Emulator," 2024 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Kobe, Japan, 2024, pp. 198-199, doi: 10.1109/CLUSTERWorkshops61563.2024.00057. 
  
 ## 18. SNIA/NVMe weblinks   
+  * @scale 2024, Training LlaMa - A Storage Perspective | Sumit Gupta & Robin Battey, https://www.facebook.com/atscaleevents/videos/training-llama-a-storage-perspective-sumit-gupta-robin-battey/1146039320066497/
+    * Systems @Scale 2024, https://atscaleconference.com/events/systems-scale-2024/  
   * 2024, How Meta trains large language models at scale, https://engineering.fb.com/2024/06/12/data-infrastructure/training-large-language-models-at-scale-meta/ 
   * 2024, Storage for AI 101 - A Primer on AI Workloads and Their Storage Requirements, https://www.sniadeveloper.org/events/agenda/session/669
   * 2024, Storage Requirements for AI Training and Checkpointing, https://www.snia.org/sites/default/files/SSSI/CMSS24/CMSS24-Cardente-Storage-Requirements-for-AI.pdf
@@ -412,7 +414,7 @@ month = {May}
   * 2020 - Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
   * 2014 - A survey of address translation technologies for flash memories, https://dl.acm.org/doi/10.1145/2512961
 
-## 23. COmpany specific stack 
+## 23. Company specific stack and details (biased towards AI/ML) 
   ### 23.1 Alibaba 
     * "Optimizing NVMe Storage for Large-Scale Deployment: Key Technologies and Strategies in Alibaba Cloud," in IEEE Micro, vol. 44, no. 5, pp. 47-56, Sept.-Oct. 2024, doi: 10.1109/MM.2024.3426514.
   ### 23.2 Baidu 
@@ -420,6 +422,13 @@ month = {May}
   ### 23.3 Meta 
     * Facebook's Tectonic Filesystem: Efficiency from Exascale, https://www.usenix.org/conference/fast21/presentation/pan 
     * Tectonic-Shift: A Composite Storage Fabric for Large-Scale ML Training, https://www.usenix.org/conference/atc23/presentation/zhao 
+    * 2024, Training LlaMa - A Storage Perspective | Sumit Gupta & Robin Battey, https://www.facebook.com/atscaleevents/videos/training-llama-a-storage-perspective-sumit-gupta-robin-battey/1146039320066497/ 
+    * 2024, Building Meta’s GenAI Infrastructure, https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/ 
+    * 2022, Scaling data ingestion for machine learning training at Meta, https://engineering.fb.com/2022/09/19/ml-applications/data-ingestion-machine-learning-training-meta/ 
+    * The Llama 3 Herd of Models, https://arxiv.org/pdf/2407.21783, 2024.  
+
+
+
 
 
 
