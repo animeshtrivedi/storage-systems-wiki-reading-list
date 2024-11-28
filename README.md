@@ -86,7 +86,10 @@ month = {May}
 
 ## 4. NVMe, Flash, PMEM, SSD File Systems 
   * Ziggurat: A Tiered File System for Non-Volatile Main Memories and Disks, https://www.usenix.org/conference/fast19/presentation/zheng
-  * FStream: Managing Flash Streams in the File System, https://www.usenix.org/conference/fast18/presentation/rho   
+  * FStream: Managing Flash Streams in the File System, https://www.usenix.org/conference/fast18/presentation/rho
+  * RFUSE: Modernizing Userspace Filesystem Framework through Scalable Kernel-Userspace Communication, https://www.usenix.org/conference/fast24/presentation/cho 
+    * > https://github.com/snu-csl/rfuse 
+
 
 ## 5. Key-Value Storage and Caches 
   * vLSM: Low tail latency and I/O amplification in LSM-based KV stores, https://arxiv.org/abs/2407.15581, 2024. 
@@ -341,7 +344,10 @@ month = {May}
   * "Elevating Commodity Storage with the SALSA Host Translation Layer," 2018 IEEE 26th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS), Milwaukee, WI, USA, 2018, pp. 277-292, doi: 10.1109/MASCOTS.2018.00035. https://ieeexplore.ieee.org/abstract/document/8526893/
   * AutoStream: automatic stream management for multi-streamed SSDs. In Proceedings of the 10th ACM International Systems and Storage Conference (SYSTOR '17). Association for Computing Machinery, New York, NY, USA, Article 3, 1–11. https://doi.org/10.1145/3078468.3078469
   * Jeong-Uk Kang, Jeeseok Hyun, Hyunjoo Maeng, and Sangyeun Cho. 2014. The multi-streamed solid-state drive. In Proceedings of the 6th USENIX conference on Hot Topics in Storage and File Systems (HotStorage'14). USENIX Association, USA, 13.
-
+  
+## 17.3 FDP 
+  * J. Park, H. Kim, J. Ha, H. Jung and H. Eom, "FDPVirt: Flexible Data Placement SSD Emulator," 2024 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Kobe, Japan, 2024, pp. 198-199, doi: 10.1109/CLUSTERWorkshops61563.2024.00057. 
+ 
 ## 18. SNIA/NVMe weblinks 
   * Storage Trends 2024: Your Questions Answered, https://sniablog.org/storage-trends-your-questions-answered/
   * 2023: FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf, https://nvmexpress.org/wp-content/uploads/FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf
