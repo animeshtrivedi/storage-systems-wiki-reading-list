@@ -74,16 +74,18 @@ month = {May}
     > Datacenter NVMe® SSD Specification, https://www.opencompute.org/documents/datacenter-nvme-ssd-specification-v2-0r21-pdf
  
 ## 3. SSD internals (FTL, GC, buffering, staging, scheduling)
+  * Reinforcement Learning-Based SLC Cache Technique for Enhancing SSD Write Performance https://www.usenix.org/system/files/hotstorage20_paper_yoo.pdf 
   * HMB-SSD: Framework for Efficient Exploiting of the Host Memory Buffer in the NVMe SSD, https://ieeexplore.ieee.org/abstract/document/8868151 
   * Improving Flash Storage Performance by Caching Address Mapping Table in Host Memory, https://www.usenix.org/conference/hotstorage17/program/presentation/jeong 
   * Fantastic SSD internals and how to learn and use them. In Proceedings of the 15th ACM International Conference on Systems and Storage (SYSTOR '22). Association for Computing Machinery, New York, NY, USA, 72–84. https://doi.org/10.1145/3534056.3534940 
-  * LavaStore: ByteDance’s Purpose-built, High-performance, Cost-effective Local Storage Engine for Cloud Services, https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf 
+  * LavaStore: ByteDance’s Purpose-built, High-performance, Cost-effective Local Storage Engine for Cloud Services, https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf
   *  Jinghan Sun, Shaobo Li, Yunxin Sun, Chao Sun, Dejan Vucinic, and Jian Huang. 2023. LeaFTL: A Learning-Based Flash Translation Layer for Solid-State Drives. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 442–456. https://doi.org/10.1145/3575693.3575744
   * Aayush Gupta, Youngjae Kim, and Bhuvan Urgaonkar. 2009. DFTL: a flash translation layer employing demand-based selective caching of page-level address mappings. In Proceedings of the 14th international conference on Architectural support for programming languages and operating systems (ASPLOS XIV). Association for Computing Machinery, New York, NY, USA, 229–240. https://doi.org/10.1145/1508244.1508271
   * S. Jiang, Lei Zhang, XinHao Yuan, Hao Hu and Yu Chen, "S-FTL: An efficient address translation for flash memory by exploiting spatial locality," 2011 IEEE 27th Symposium on Mass Storage Systems and Technologies (MSST), Denver, CO, 2011, pp. 1-12, doi: 10.1109/MSST.2011.5937215.
   * You Zhou, Fei Wu, Ping Huang, Xubin He, Changsheng Xie, and Jian Zhou. 2015. An efficient page-level FTL to optimize address translation in flash memory. In Proceedings of the Tenth European Conference on Computer Systems (EuroSys '15). Association for Computing Machinery, New York, NY, USA, Article 12, 1–16. https://doi.org/10.1145/2741948.2741949
   * LearnedFTL: A Learning-Based Page-Level FTL for Reducing Double Reads in Flash-Based SSDs, https://doi.ieeecomputersociety.org/10.1109/HPCA57654.2024.00054  
-  * Rino Micheloni, Alessia Marelli, and Kam Eshghi. 2012. Inside Solid State Drives (SSDs). Springer Publishing Company, Incorporated. https://dl.acm.org/doi/10.5555/2412028 
+  * Rino Micheloni, Alessia Marelli, and Kam Eshghi. 2012. Inside Solid State Drives (SSDs). Springer Publishing Company, Incorporated. https://dl.acm.org/doi/10.5555/2412028
+  * FlexECC: Partially Relaxing ECC of MLC SSD for Better Cache Performance https://www.usenix.org/conference/atc14/technical-sessions/presentation/huang 
 
 ## 4. NVMe, Flash, PMEM, SSD File Systems 
   * Ziggurat: A Tiered File System for Non-Volatile Main Memories and Disks, https://www.usenix.org/conference/fast19/presentation/zheng
@@ -93,6 +95,7 @@ month = {May}
 
 
 ## 5. Key-Value Storage and Caches 
+  * Flashield: a Hybrid Key-value Cache that Controls Flash Write Amplification https://www.usenix.org/conference/nsdi19/presentation/eisenman 
   * vLSM: Low tail latency and I/O amplification in LSM-based KV stores, https://arxiv.org/abs/2407.15581, 2024. 
   * Calcspar: A Contract-Aware LSM Store for Cloud Storage with Low Latency Spikes, https://www.usenix.org/conference/atc23/presentation/zhou
   * The CacheLib Caching Engine: Design and Experiences at Scale, https://www.usenix.org/conference/osdi20/presentation/berg
@@ -385,6 +388,7 @@ month = {May}
   * COSBench: cloud object storage benchmark. In Proceedings of the 4th ACM/SPEC International Conference on Performance Engineering (ICPE '13). Association for Computing Machinery, New York, NY, USA, 199–210. https://doi.org/10.1145/2479871.2479900
     
 ## 20. RAID, Compression, De-duplication 
+  * Alleviating garbage collection interference through spatial separation in all flash arrays https://www.usenix.org/conference/atc19/presentation/kim-jaeho
   * Ziyang Jiao and Bryan S. Kim. 2024. Asymmetric RAID: Rethinking RAID for SSD Heterogeneity. In Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '24). Association for Computing Machinery, New York, NY, USA, 101–107. https://doi.org/10.1145/3655038.3665952
   * FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays, https://www.usenix.org/conference/fast21/presentation/jiang (FAST 2021)
   * StRAID: Stripe-threaded Architecture for Parity-based RAIDs with Ultra-fast SSDs, https://www.usenix.org/conference/atc22/presentation/wang-shucheng (USENIX 2022)
