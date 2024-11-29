@@ -172,6 +172,7 @@ month = {May}
   * SmartSAGE: training large-scale graph neural networks using in-storage processing architectures. In Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for Computing Machinery, New York, NY, USA, 932–945. https://doi.org/10.1145/3470496.3527391
   * An Analytical Model-based Capacity Planning Approach for Building CSD-based Storage Systems. ACM Trans. Embed. Comput. Syst. Just Accepted (September 2023). https://doi.org/10.1145/3623677
   * Scalable Billion-point Approximate Nearest Neighbor Search Using SmartSSDs, https://www.usenix.org/conference/atc24/presentation/tian
+  * Malacology: A Programmable Storage System. In Proceedings of the Twelfth European Conference on Computer Systems (EuroSys '17). Association for Computing Machinery, New York, NY, USA, 175–190. https://doi.org/10.1145/3064176.3064208
 
 ## 9. Storage Virtualization, Emulation, Simulation
   * MQsim (simulator): https://www.usenix.org/system/files/conference/fast18/fast18-tavakkol.pdf
@@ -365,6 +366,7 @@ month = {May}
 
 ## 19. Benchmarking, traces, profiling, monitoring, and characterization 
   * LST-Bench: Benchmarking Log-Structured Tables in the Cloud. Proc. ACM Manag. Data 2, 1, Article 59 (February 2024), 26 pages. https://doi.org/10.1145/3639314. 
+  * On the Performance Variation in Modern Storage Stacks, https://www.usenix.org/system/files/conference/fast17/fast17-cao.pdf 
   * Phitchaya Mangpo Phothilimthana, Saurabh Kadekodi, Soroush Ghodrati, Selene Moon, and Martin Maas. 2024. Thesios: Synthesizing Accurate Counterfactual I/O Traces from I/O Samples. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS '24), Vol. 3. Association for Computing Machinery, New York, NY, USA, 1016–1032. https://doi.org/10.1145/3620666.3651337
   * Jinhong Li, Qiuping Wang, Patrick P. C. Lee, and Chao Shi. 2023. An In-depth Comparative Analysis of Cloud Block Storage Workloads: Findings and Implications. ACM Trans. Storage 19, 2, Article 16 (May 2023), 32 pages. https://doi.org/10.1145/3572779
   * Gala Yadgar, MOSHE Gabel, Shehbaz Jaffer, and Bianca Schroeder. 2021. SSD-based Workload Characteristics and Their Performance Implications. ACM Trans. Storage 17, 1, Article 8 (February 2021), 26 pages. https://doi.org/10.1145/3423137
@@ -390,6 +392,7 @@ month = {May}
   * 
 
 ## 21. ML and (Storage) Systems 
+  * ServerlessLLM: Low-Latency Serverless Inference for Large Language Models, https://www.usenix.org/system/files/osdi24-fu.pdf 
   * Understanding data storage and ingestion for large-scale deep recommendation model training: industrial product. In Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for Computing Machinery, New York, NY, USA, 1042–1057. https://doi.org/10.1145/3470496.3533044 
   * R. Macedo et al., "The Case for Storage Optimization Decoupling in Deep Learning Frameworks," 2021 IEEE International Conference on Cluster Computing (CLUSTER), Portland, OR, USA, 2021, pp. 649-656, doi: 10.1109/Cluster48925.2021.00096. https://ieeexplore.ieee.org/document/9556106
   * LLM in a flash: Efficient Large Language Model Inference with Limited Memory, https://arxiv.org/abs/2312.11514.
