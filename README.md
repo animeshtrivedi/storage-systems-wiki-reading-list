@@ -62,7 +62,12 @@ month = {May}
   * Ethan Miller, Achilles Benetopoulos, George Neville-Neil, Pankaj Mehra, and Daniel Bittman. 2023. Pointers in Far Memory: A rethink of how data and computations should be organized. Queue 21, 3, Pages 50 (May/June 2023), 19 pages. https://doi.org/10.1145/3606029
   
 ## 2. Host interfacing, OS and Storage I/O Stack 
+  * Sujay Yadalam, Chloe Alverti, Vasileios Karakostas, Jayneel Gandhi, and Michael Swift. 2024. BypassD: Enabling fast userspace access to shared SSDs. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1 (ASPLOS '24), Vol. 1. Association for Computing Machinery, New York, NY, USA, 35–51. https://doi.org/10.1145/3617232.3624854 [GitHub](https://github.com/multifacet/Bypassd)   
+  * Zaid Qureshi, Vikram Sharma Mailthody, Isaac Gelado, Seungwon Min, Amna Masood, Jeongmin Park, Jinjun Xiong, C. J. Newburn, Dmitri Vainbrand, I-Hsin Chung, Michael Garland, William Dally, and Wen-mei Hwu. 2023. GPU-Initiated On-Demand High-Throughput Storage Access in the BaM System Architecture. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 325–339. https://doi.org/10.1145/3575693.3575748 
+  * Shaleen Garg, Jian Zhang, Rekha Pitchumani, Manish Parashar, Bing Xie, and Sudarsun Kannan. 2024. CrossPrefetch: Accelerating I/O Prefetching for Modern Storage. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1 (ASPLOS '24), Vol. 1. Association for Computing Machinery, New York, NY, USA, 102–116. https://doi.org/10.1145/3617232.3624872
+  * Jian Zhang, Marie Nguyen, Sanidhya Kashyap, and Sudarsun Kannan. 2024. Context-aware Prefetching for Near-Storage Accelerators. In Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '24). Association for Computing Machinery, New York, NY, USA, 131–136. https://doi.org/10.1145/3655038.3665956 
   * PAIO: General, Portable I/O Optimizations With Minor Application Modifications, https://www.usenix.org/conference/fast22/presentation/macedo 
+  * Chia-Hao Chang, Jihoon Han, Anand Sivasubramaniam, Vikram Sharma Mailthody, Zaid Qureshi, and Wen-Mei Hwu. 2024. GMT: GPU Orchestrated Memory Tiering for the Big Data Era. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS '24), Vol. 3. Association for Computing Machinery, New York, NY, USA, 464–478. https://doi.org/10.1145/3620666.3651353
   * ScalaCache: Scalable User-Space Page Cache Management with Software-Hardware Coordination, https://www.usenix.org/conference/atc24/presentation/peng
   * Don't be a blockhead: zoned namespaces make work on conventional SSDs obsolete. In Proceedings of the Workshop on Hot Topics in Operating Systems (HotOS '21). Association for Computing Machinery, New York, NY, USA, 144–151. https://doi.org/10.1145/3458336.3465300    
   * FlatFlash: Exploiting the Byte-Accessibility of SSDs within a Unified Memory-Storage Hierarchy. In Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '19). Association for Computing Machinery, New York, NY, USA, 971–985. https://doi.org/10.1145/3297858.3304061
@@ -160,6 +165,7 @@ month = {May}
 
 
 ## 8. Programmable storage, acceleration, offloading, computational storage, workload-specific storage
+  * * Rohan Mahapatra, Soroush Ghodrati, Byung Hoon Ahn, Sean Kinzer, Shu-Ting Wang, Hanyang Xu, Lavanya Karthikeyan, Hardik Sharma, Amir Yazdanbakhsh, Mohammad Alian, and Hadi Esmaeilzadeh. 2024. In-Storage Domain-Specific Acceleration for Serverless Computing. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS '24), Vol. 2. Association for Computing Machinery, New York, NY, USA, 530–548. https://doi.org/10.1145/3620665.3640413
   * BPF-oF: Storage Function Pushdown Over the Network, https://arxiv.org/abs/2312.06808, 2023.  
   * Breathing New Life into an Old Tree: Resolving Logging Dilemma of B+-tree on Modern Computational Storage Drives. Proc. VLDB Endow. 17, 2 (October 2023), 134–147. https://doi.org/10.14778/3626292.3626297
   * PreSto: An In-Storage Data Preprocessing System for Training Recommendation Models, https://ieeexplore.ieee.org/document/10609715 (ISCA 2024) 
@@ -397,6 +403,7 @@ month = {May}
   * 
 
 ## 21. ML and (Storage) Systems 
+  * Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?, https://dl.acm.org/doi/10.1145/3655038.3665954 
   * ServerlessLLM: Low-Latency Serverless Inference for Large Language Models, https://www.usenix.org/system/files/osdi24-fu.pdf 
   * Understanding data storage and ingestion for large-scale deep recommendation model training: industrial product. In Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for Computing Machinery, New York, NY, USA, 1042–1057. https://doi.org/10.1145/3470496.3533044 
   * R. Macedo et al., "The Case for Storage Optimization Decoupling in Deep Learning Frameworks," 2021 IEEE International Conference on Cluster Computing (CLUSTER), Portland, OR, USA, 2021, pp. 649-656, doi: 10.1109/Cluster48925.2021.00096. https://ieeexplore.ieee.org/document/9556106
