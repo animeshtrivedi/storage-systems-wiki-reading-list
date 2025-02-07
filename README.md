@@ -263,6 +263,7 @@ month = {May}
 ## 14. NVM storage and Energy consumption   
   * Can Storage Devices be Power Adaptive? https://theanoli.github.io/files/hotstorage24-xie.pdf
   * EMPower: The Case for a Cloud Power Control Plane https://hotcarbon.org/assets/2024/pdf/hotcarbon24-final57.pdf
+  * Power, Energy, and Thermal Considerations in SSD-Based I/O Acceleration, https://www.usenix.org/conference/hotstorage14/workshop-program/presentation/zhang
   * The carbon footprint of distributed cloud storage https://arxiv.org/abs/1803.06973 (2019)
   * On the Limitations of Carbon-Aware Temporal and Spatial Workload Shifting in the Cloud. In Proceedings of the Nineteenth European Conference on Computer Systems (EuroSys '24). Association for Computing Machinery, New York, NY, USA, 924–941. https://doi.org/10.1145/3627703.3650079
   * Energy Implications of IO Interface Design Choices. In Proceedings of the 15th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '23). Association for Computing Machinery, New York, NY, USA, 58–64. https://doi.org/10.1145/3599691.3603411 
