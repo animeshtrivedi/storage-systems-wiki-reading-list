@@ -418,7 +418,8 @@ month = {May}
   * PipeDream: generalized pipeline parallelism for DNN training. In Proceedings of the 27th ACM Symposium on Operating Systems Principles (SOSP '19). Association for Computing Machinery, New York, NY, USA, 1–15. https://doi.org/10.1145/3341301.3359646
   * PyTorch distributed: experiences on accelerating data parallel training. Proc. VLDB Endow. 13, 12 (August 2020), 3005–3018. https://doi.org/10.14778/3415478.3415530
   * Analyzing and mitigating data stalls in DNN training. Proc. VLDB Endow. 14, 5 (January 2021), 771–784. https://doi.org/10.14778/3446095.3446100
-  * https://proceedings.mlsys.org/ 
+  * https://proceedings.mlsys.org/
+  * Fire-Flyer AI-HPC: A Cost-Effective Software-Hardware Co-Design for Deep Learning https://dl.acm.org/doi/10.1109/SC41406.2024.00089
 
 ## 22. A selection of storage related surveys 
   * 2024 - Survey of vector database management systems. The VLDB Journal 33, 5 (Sep 2024), 1591–1615. https://doi.org/10.1007/s00778-024-00864-x 
