@@ -54,6 +54,7 @@ month = {May}
 20. [RAID, Compression, De-duplication](#20-raid-compression-de-duplication)
 21. [ML and (Storage) Systems](#21-ml-and-storage-systems)
 22. [A selection of storage related surveys](#22-a-selection-of-storage-related-surveys)
+23. [Company specific stacks](#23-company-specific-stacks)
 
 ## 1. NVM storage, introduction, device-level details  
   * Michael Cornwell. 2012. Anatomy of a Solid-state Drive: While the ubiquitous SSD shares many features with the hard-disk drive, under the surface they are completely different. Queue 10, 10 (October 2012), 30–36. https://doi.org/10.1145/2381996.2385276
@@ -61,7 +62,12 @@ month = {May}
   * Ethan Miller, Achilles Benetopoulos, George Neville-Neil, Pankaj Mehra, and Daniel Bittman. 2023. Pointers in Far Memory: A rethink of how data and computations should be organized. Queue 21, 3, Pages 50 (May/June 2023), 19 pages. https://doi.org/10.1145/3606029
   
 ## 2. Host interfacing, OS and Storage I/O Stack 
+  * Sujay Yadalam, Chloe Alverti, Vasileios Karakostas, Jayneel Gandhi, and Michael Swift. 2024. BypassD: Enabling fast userspace access to shared SSDs. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1 (ASPLOS '24), Vol. 1. Association for Computing Machinery, New York, NY, USA, 35–51. https://doi.org/10.1145/3617232.3624854 [GitHub](https://github.com/multifacet/Bypassd)   
+  * Zaid Qureshi, Vikram Sharma Mailthody, Isaac Gelado, Seungwon Min, Amna Masood, Jeongmin Park, Jinjun Xiong, C. J. Newburn, Dmitri Vainbrand, I-Hsin Chung, Michael Garland, William Dally, and Wen-mei Hwu. 2023. GPU-Initiated On-Demand High-Throughput Storage Access in the BaM System Architecture. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 325–339. https://doi.org/10.1145/3575693.3575748 
+  * Shaleen Garg, Jian Zhang, Rekha Pitchumani, Manish Parashar, Bing Xie, and Sudarsun Kannan. 2024. CrossPrefetch: Accelerating I/O Prefetching for Modern Storage. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1 (ASPLOS '24), Vol. 1. Association for Computing Machinery, New York, NY, USA, 102–116. https://doi.org/10.1145/3617232.3624872
+  * Jian Zhang, Marie Nguyen, Sanidhya Kashyap, and Sudarsun Kannan. 2024. Context-aware Prefetching for Near-Storage Accelerators. In Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '24). Association for Computing Machinery, New York, NY, USA, 131–136. https://doi.org/10.1145/3655038.3665956 
   * PAIO: General, Portable I/O Optimizations With Minor Application Modifications, https://www.usenix.org/conference/fast22/presentation/macedo 
+  * Chia-Hao Chang, Jihoon Han, Anand Sivasubramaniam, Vikram Sharma Mailthody, Zaid Qureshi, and Wen-Mei Hwu. 2024. GMT: GPU Orchestrated Memory Tiering for the Big Data Era. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS '24), Vol. 3. Association for Computing Machinery, New York, NY, USA, 464–478. https://doi.org/10.1145/3620666.3651353
   * ScalaCache: Scalable User-Space Page Cache Management with Software-Hardware Coordination, https://www.usenix.org/conference/atc24/presentation/peng
   * Don't be a blockhead: zoned namespaces make work on conventional SSDs obsolete. In Proceedings of the Workshop on Hot Topics in Operating Systems (HotOS '21). Association for Computing Machinery, New York, NY, USA, 144–151. https://doi.org/10.1145/3458336.3465300    
   * FlatFlash: Exploiting the Byte-Accessibility of SSDs within a Unified Memory-Storage Hierarchy. In Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '19). Association for Computing Machinery, New York, NY, USA, 971–985. https://doi.org/10.1145/3297858.3304061
@@ -73,7 +79,11 @@ month = {May}
     > Datacenter NVMe® SSD Specification, https://www.opencompute.org/documents/datacenter-nvme-ssd-specification-v2-0r21-pdf
  
 ## 3. SSD internals (FTL, GC, buffering, staging, scheduling)
-  * LavaStore: ByteDance’s Purpose-built, High-performance, Cost-effective Local Storage Engine for Cloud Services, https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf 
+  * Reinforcement Learning-Based SLC Cache Technique for Enhancing SSD Write Performance https://www.usenix.org/system/files/hotstorage20_paper_yoo.pdf 
+  * HMB-SSD: Framework for Efficient Exploiting of the Host Memory Buffer in the NVMe SSD, https://ieeexplore.ieee.org/abstract/document/8868151 
+  * Improving Flash Storage Performance by Caching Address Mapping Table in Host Memory, https://www.usenix.org/conference/hotstorage17/program/presentation/jeong 
+  * Fantastic SSD internals and how to learn and use them. In Proceedings of the 15th ACM International Conference on Systems and Storage (SYSTOR '22). Association for Computing Machinery, New York, NY, USA, 72–84. https://doi.org/10.1145/3534056.3534940 
+  * LavaStore: ByteDance’s Purpose-built, High-performance, Cost-effective Local Storage Engine for Cloud Services, https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf
   *  Jinghan Sun, Shaobo Li, Yunxin Sun, Chao Sun, Dejan Vucinic, and Jian Huang. 2023. LeaFTL: A Learning-Based Flash Translation Layer for Solid-State Drives. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 442–456. https://doi.org/10.1145/3575693.3575744
   * Aayush Gupta, Youngjae Kim, and Bhuvan Urgaonkar. 2009. DFTL: a flash translation layer employing demand-based selective caching of page-level address mappings. In Proceedings of the 14th international conference on Architectural support for programming languages and operating systems (ASPLOS XIV). Association for Computing Machinery, New York, NY, USA, 229–240. https://doi.org/10.1145/1508244.1508271
   * S. Jiang, Lei Zhang, XinHao Yuan, Hao Hu and Yu Chen, "S-FTL: An efficient address translation for flash memory by exploiting spatial locality," 2011 IEEE 27th Symposium on Mass Storage Systems and Technologies (MSST), Denver, CO, 2011, pp. 1-12, doi: 10.1109/MSST.2011.5937215.
@@ -82,12 +92,18 @@ month = {May}
   * Rino Micheloni, Alessia Marelli, and Kam Eshghi. 2012. Inside Solid State Drives (SSDs). Springer Publishing Company, Incorporated. https://dl.acm.org/doi/10.5555/2412028 
   * Tomer Lange, Joseph (Seffi) Naor, and Gala Yadgar. Offline and Online Algorithms for SSD Management. Commun. ACM. 2021. https://dl.acm.org/doi/10.1145/3491045
   * Chun-Yi Liu, Jagadish Kotra, Myoungsoo Jung, Mahmut Taylan Kandemir. Centaur: A Novel Architecture for Reliable, Low-Wear, High-Density 3D NAND Storage. Proc. {ACM} Meas. Anal. Comput. Syst. 2020. https://dl.acm.org/doi/10.1145/3392146
+  * FlexECC: Partially Relaxing ECC of MLC SSD for Better Cache Performance https://www.usenix.org/conference/atc14/technical-sessions/presentation/huang 
+
 
 ## 4. NVMe, Flash, PMEM, SSD File Systems 
   * Ziggurat: A Tiered File System for Non-Volatile Main Memories and Disks, https://www.usenix.org/conference/fast19/presentation/zheng
-  * FStream: Managing Flash Streams in the File System, https://www.usenix.org/conference/fast18/presentation/rho   
+  * FStream: Managing Flash Streams in the File System, https://www.usenix.org/conference/fast18/presentation/rho
+  * RFUSE: Modernizing Userspace Filesystem Framework through Scalable Kernel-Userspace Communication, https://www.usenix.org/conference/fast24/presentation/cho 
+    * > https://github.com/snu-csl/rfuse 
+
 
 ## 5. Key-Value Storage and Caches 
+  * Flashield: a Hybrid Key-value Cache that Controls Flash Write Amplification https://www.usenix.org/conference/nsdi19/presentation/eisenman 
   * vLSM: Low tail latency and I/O amplification in LSM-based KV stores, https://arxiv.org/abs/2407.15581, 2024. 
   * Calcspar: A Contract-Aware LSM Store for Cloud Storage with Low Latency Spikes, https://www.usenix.org/conference/atc23/presentation/zhou
   * The CacheLib Caching Engine: Design and Experiences at Scale, https://www.usenix.org/conference/osdi20/presentation/berg
@@ -114,7 +130,8 @@ month = {May}
   * CXL and the Return of Scale-Up Database Engines. Proc. VLDB Endow. 17, 10 (June 2024), 2568–2575. https://doi.org/10.14778/3675034.3675047
   * Anchor: A Library for Building Secure Persistent Memory Systems. Proc. ACM Manag. Data 1, 4, Article 231 (December 2023), 31 pages. https://doi.org/10.1145/3626718. 
   * Scalable Distributed Inverted List Indexes in Disaggregated Memory. Proc. ACM Manag. Data 2, 3, Article 171 (June 2024), 27 pages. https://doi.org/10.1145/3654974
-  * Persistent Memory Research in the Post-Optane Era. In Proceedings of the 1st Workshop on Disruptive Memory Systems (DIMES '23). Association for Computing Machinery, New York, NY, USA, 23–30. https://doi.org/10.1145/3609308.3625268 
+  * Persistent Memory Research in the Post-Optane Era. In Proceedings of the 1st Workshop on Disruptive Memory Systems (DIMES '23). Association for Computing Machinery, New York, NY, USA, 23–30. https://doi.org/10.1145/3609308.3625268
+  * A Comprehensive Empirical Study of File Systems on Optane Persistent Memory, https://ieeexplore.ieee.org/abstract/document/9605448 
   * TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 742–755. https://doi.org/10.1145/3582016.3582063 
   * Pond: CXL-Based Memory Pooling Systems for Cloud Platforms. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 574–587. https://doi.org/10.1145/3575693.3578835 
   * Cache in Hand: Expander-Driven CXL Prefetcher for Next Generation CXL-SSD. In Proceedings of the 15th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '23). Association for Computing Machinery, New York, NY, USA, 24–30. https://doi.org/10.1145/3599691.3603406 
@@ -128,7 +145,14 @@ month = {May}
   * Persistent State Machines for Recoverable In-memory Storage Systems with NVRam,  https://www.usenix.org/conference/osdi20/presentation/zhang-wen
   * Wenda Tang, Ying Han, Tianxiang Ai, Guanghui Li, Bin Yu, Xin Yang. 2024. Yggdrasil: Reducing Network I/O Tax with (CXL-Based) Distributed Shared Memory. In Proceedings of the 53rd International Conference on Parallel Processing. https://dl.acm.org/doi/10.1145/3673038.3673138
   * Qizhen Zhang, Philip A. Bernstein, Badrish Chandramouli, Jiasheng Hu, Yiming Zheng. 2024. DDS: DPU-optimized Disaggregated Storage. PVLDB, 17(11). https://www.vldb.org/pvldb/vol17/p3304-zhang.pdf 
-  * Minseon Ahn, Willhalm Thomas, Norman May, Donghun Lee, Suprasad Mutalik Desai, Daniel Booss, Jungmin Kim, Navneet Singh, Daniel Ritter, Oliver Rebholz. 2024. An Examination of CXL Memory Use Cases for In-Memory Database Management Systems using SAP HANA. PVLDB, 17(12). https://www.vldb.org/pvldb/vol17/p3827-ahn.pdf 
+  * Minseon Ahn, Willhalm Thomas, Norman May, Donghun Lee, Suprasad Mutalik Desai, Daniel Booss, Jungmin Kim, Navneet Singh, Daniel Ritter, Oliver Rebholz. 2024. An Examination of CXL Memory Use Cases for In-Memory Database Management Systems using SAP HANA. PVLDB, 17(12). https://www.vldb.org/pvldb/vol17/p3827-ahn.pdf
+  * SPMFS: A Scalable Persistent Memory File System on Optane Persistent Memory. In Proceedings of the 50th International Conference on Parallel Processing (ICPP '21). Association for Computing Machinery, New York, NY, USA, Article 3, 1–10. https://doi.org/10.1145/3472456.3472503
+  * A Survey of Non-Volatile Main Memory File Systems, https://jcst.ict.ac.cn/en/article/pdf/preview/10.1007/s11390-023-1054-3.pdf (https://link.springer.com/article/10.1007/s11390-023-1054-3) 
+  * Ziggurat: A Tiered File System for Non-Volatile Main Memories and Disks https://www.usenix.org/conference/fast19/presentation/zheng
+    > FileBench, RocksDB, SQLite, MySQL
+  * Characterizing the performance of intel optane persistent memory: a close look at its on-DIMM buffering. In Proceedings of the Seventeenth European Conference on Computer Systems (EuroSys '22). Association for Computing Machinery, New York, NY, USA, 488–505. https://doi.org/10.1145/3492321.3519556
+  * "CFFS: A Persistent Memory File System for Contiguous File Allocation With Fine-Grained Metadata," in IEEE Access, vol. 10, pp. 91678-91698, 2022, doi: 10.1109/ACCESS.2022.3202532 https://ieeexplore.ieee.org/abstract/document/9869672 
+
 
 ## 7. Networked/distributed Flash/NVMoF/Storage Disaggregation   
   * Towards Resource Efficiency: Practical Insights into Large-Scale Spark Workloads at ByteDance. PVLDB, 17(12): 3759-3771, 2024. doi:10.14778/3685800.3685804
@@ -144,6 +168,7 @@ month = {May}
 
 
 ## 8. Programmable storage, acceleration, offloading, computational storage, workload-specific storage
+  * * Rohan Mahapatra, Soroush Ghodrati, Byung Hoon Ahn, Sean Kinzer, Shu-Ting Wang, Hanyang Xu, Lavanya Karthikeyan, Hardik Sharma, Amir Yazdanbakhsh, Mohammad Alian, and Hadi Esmaeilzadeh. 2024. In-Storage Domain-Specific Acceleration for Serverless Computing. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS '24), Vol. 2. Association for Computing Machinery, New York, NY, USA, 530–548. https://doi.org/10.1145/3620665.3640413
   * BPF-oF: Storage Function Pushdown Over the Network, https://arxiv.org/abs/2312.06808, 2023.  
   * Breathing New Life into an Old Tree: Resolving Logging Dilemma of B+-tree on Modern Computational Storage Drives. Proc. VLDB Endow. 17, 2 (October 2023), 134–147. https://doi.org/10.14778/3626292.3626297
   * PreSto: An In-Storage Data Preprocessing System for Training Recommendation Models, https://ieeexplore.ieee.org/document/10609715 (ISCA 2024) 
@@ -159,6 +184,7 @@ month = {May}
   * SmartSAGE: training large-scale graph neural networks using in-storage processing architectures. In Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for Computing Machinery, New York, NY, USA, 932–945. https://doi.org/10.1145/3470496.3527391
   * An Analytical Model-based Capacity Planning Approach for Building CSD-based Storage Systems. ACM Trans. Embed. Comput. Syst. Just Accepted (September 2023). https://doi.org/10.1145/3623677
   * Scalable Billion-point Approximate Nearest Neighbor Search Using SmartSSDs, https://www.usenix.org/conference/atc24/presentation/tian
+  * Malacology: A Programmable Storage System. In Proceedings of the Twelfth European Conference on Computer Systems (EuroSys '17). Association for Computing Machinery, New York, NY, USA, 175–190. https://doi.org/10.1145/3064176.3064208
 
 ## 9. Storage Virtualization, Emulation, Simulation
   * MQsim (simulator): https://www.usenix.org/system/files/conference/fast18/fast18-tavakkol.pdf
@@ -243,13 +269,20 @@ month = {May}
   * Reducing Minor Page Fault Overheads through Enhanced Page Walker, https://dl.acm.org/doi/full/10.1145/3547142
   * BlockFlex: Enabling Storage Harvesting with Software-Defined Flash in Modern Cloud Platforms, https://www.usenix.org/conference/osdi22/presentation/reidys
 
-## 14. NVM storage and Energy consumption 
+## 14. NVM storage and Energy consumption   
+  * Can Storage Devices be Power Adaptive? https://theanoli.github.io/files/hotstorage24-xie.pdf
+  * EMPower: The Case for a Cloud Power Control Plane https://hotcarbon.org/assets/2024/pdf/hotcarbon24-final57.pdf
+  * Power, Energy, and Thermal Considerations in SSD-Based I/O Acceleration, https://www.usenix.org/conference/hotstorage14/workshop-program/presentation/zhang
+  * The carbon footprint of distributed cloud storage https://arxiv.org/abs/1803.06973 (2019)
+  * On the Limitations of Carbon-Aware Temporal and Spatial Workload Shifting in the Cloud. In Proceedings of the Nineteenth European Conference on Computer Systems (EuroSys '24). Association for Computing Machinery, New York, NY, USA, 924–941. https://doi.org/10.1145/3627703.3650079
   * Energy Implications of IO Interface Design Choices. In Proceedings of the 15th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '23). Association for Computing Machinery, New York, NY, USA, 58–64. https://doi.org/10.1145/3599691.3603411 
   * When poll is more energy efficient than interrupt. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems, HotStorage ’22, page 59–64, New York, NY, USA, 2022. Association for Computing Machinery.  https://www.hotstorage.org/2022/slides/hotstorage22-paper44-presentation_slides.pdf
   * Ultra‐low latency ssds’ impact on overall energy efficiency. In Proceedings of the 12th USENIX Conference on Hot Topics in Storage and File Systems, HotStorage’20, USA, 2020. USENIX Association. https://www.usenix.org/system/files/hotstorage20-paper61-slides-harris.pdf
   * On the energy overhead of mobile storage systems. In Proceedings of the 12th USENIX Conference on File and Storage Technologies, FAST’14, page 105–118, USA, 2014. USENIX Association.
   * Storage on your smartphone uses more energy than you think. In Proceedings of the 9th USENIX Conference on Hot Topics in Storage and File Systems, HotStorage’17, page 9, USA, 2017. USENIX Association.
-  * Hamming Tree: The Case for Energy-Aware Indexing for NVMs. In Proceedings of the ACM on Management of Data. SIGMOD'2023. ACM New York, NY, USA, 2023. 
+  * Hamming Tree: The Case for Energy-Aware Indexing for NVMs. In Proceedings of the ACM on Management of Data. SIGMOD'2023. ACM New York, NY, USA, 2023.
+  * Treehouse: A Case For Carbon-Aware Datacenter Software. SIGENERGY Energy Inform. Rev. 3, 3 (October 2023), 64–70. https://doi.org/10.1145/3630614.3630626 
+
 
 ## 15. Database, Timeseries, VectorDB, Lookup, Indexes on Storage  
   * SingleStore-V: An Integrated Vector Database System in SingleStore, VLDB 2024, https://doi.org/10.14778/3685800.3685805 
@@ -326,13 +359,27 @@ month = {May}
   * "Elevating Commodity Storage with the SALSA Host Translation Layer," 2018 IEEE 26th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS), Milwaukee, WI, USA, 2018, pp. 277-292, doi: 10.1109/MASCOTS.2018.00035. https://ieeexplore.ieee.org/abstract/document/8526893/
   * AutoStream: automatic stream management for multi-streamed SSDs. In Proceedings of the 10th ACM International Systems and Storage Conference (SYSTOR '17). Association for Computing Machinery, New York, NY, USA, Article 3, 1–11. https://doi.org/10.1145/3078468.3078469
   * Jeong-Uk Kang, Jeeseok Hyun, Hyunjoo Maeng, and Sangyeun Cho. 2014. The multi-streamed solid-state drive. In Proceedings of the 6th USENIX conference on Hot Topics in Storage and File Systems (HotStorage'14). USENIX Association, USA, 13.
-
-## 18. SNIA/NVMe weblinks 
+  
+## 17.3 FDP 
+  * J. Park, H. Kim, J. Ha, H. Jung and H. Eom, "FDPVirt: Flexible Data Placement SSD Emulator," 2024 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Kobe, Japan, 2024, pp. 198-199, doi: 10.1109/CLUSTERWorkshops61563.2024.00057. 
+ 
+## 18. SNIA/NVMe weblinks   
+  * @scale 2024, Training LlaMa - A Storage Perspective | Sumit Gupta & Robin Battey, https://www.facebook.com/atscaleevents/videos/training-llama-a-storage-perspective-sumit-gupta-robin-battey/1146039320066497/
+    * Systems @Scale 2024, https://atscaleconference.com/events/systems-scale-2024/  
+  * 2024, How Meta trains large language models at scale, https://engineering.fb.com/2024/06/12/data-infrastructure/training-large-language-models-at-scale-meta/ 
+  * 2024, Storage for AI 101 - A Primer on AI Workloads and Their Storage Requirements, https://www.sniadeveloper.org/events/agenda/session/669
+  * 2024, Storage Requirements for AI Training and Checkpointing, https://www.snia.org/sites/default/files/SSSI/CMSS24/CMSS24-Cardente-Storage-Requirements-for-AI.pdf
+  * NVMe® Computational Storage: From Addressing Ransomware to Improving Bandwidth, https://nvmexpress.org/resource/nvme-computational-storage-from-addressing-ransomware-to-improving-bandwidth/ 
   * Storage Trends 2024: Your Questions Answered, https://sniablog.org/storage-trends-your-questions-answered/
   * 2023: FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf, https://nvmexpress.org/wp-content/uploads/FMS-2023-NVM-Express-State-of-the-Union-The-Language-of-Storage.pdf
+  * Exploring the Impact of System Storage on AI & ML Workloads via MLPerf Benchmark Suite, https://files.futurememorystorage.com/proceedings/2019/08-08-Thursday/20190808_AIML-301-1_Vaske.pdf 
+  * A Quick Tour of NVM Express (NVMe) https://metebalci.com/blog/a-quick-tour-of-nvm-express-nvme/
+  * https://mlcommons.org/working-groups/benchmarks/storage/ MLPerf Storage Working Group
+  * RocksDB* db_bench Tuning Guide on 3rd Generation Intel® Xeon® Scalable Processors Based Platform https://www.intel.com/content/www/us/en/content-details/686417/rocksdb-db-bench-tuning-guide-on-3rd-generation-intel-xeon-scalable-processors-based-platform.html 
 
 ## 19. Benchmarking, traces, profiling, monitoring, and characterization 
   * LST-Bench: Benchmarking Log-Structured Tables in the Cloud. Proc. ACM Manag. Data 2, 1, Article 59 (February 2024), 26 pages. https://doi.org/10.1145/3639314. 
+  * On the Performance Variation in Modern Storage Stacks, https://www.usenix.org/system/files/conference/fast17/fast17-cao.pdf 
   * Phitchaya Mangpo Phothilimthana, Saurabh Kadekodi, Soroush Ghodrati, Selene Moon, and Martin Maas. 2024. Thesios: Synthesizing Accurate Counterfactual I/O Traces from I/O Samples. In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS '24), Vol. 3. Association for Computing Machinery, New York, NY, USA, 1016–1032. https://doi.org/10.1145/3620666.3651337
   * Jinhong Li, Qiuping Wang, Patrick P. C. Lee, and Chao Shi. 2023. An In-depth Comparative Analysis of Cloud Block Storage Workloads: Findings and Implications. ACM Trans. Storage 19, 2, Article 16 (May 2023), 32 pages. https://doi.org/10.1145/3572779
   * Gala Yadgar, MOSHE Gabel, Shehbaz Jaffer, and Bianca Schroeder. 2021. SSD-based Workload Characteristics and Their Performance Implications. ACM Trans. Storage 17, 1, Article 8 (February 2021), 26 pages. https://doi.org/10.1145/3423137
@@ -347,9 +394,11 @@ month = {May}
   * Jayanta Basak, Kushal Wadhwani, and Kaladhar Voruganti. 2016. Storage Workload Identification. ACM Trans. Storage 12, 3, Article 14 (June 2016), 30 pages. https://doi.org/10.1145/2818716
   * Ajay Gulati, Chethan Kumar, and Irfan Ahmad. Storage workload characterization and consolidation in virtualized environments. In Proc. Int'l Workshop on Virtualization Performance: Analysis, Characterization, and Tools (VPACT'09), 2009.
   * Bin Yang, Wei Xue, Tianyu Zhang, Shichao Liu, Xiaosong Ma, Xiyang Wang, and Weiguo Liu. 2023. End-to-end I/O Monitoring on Leading Supercomputers. ACM Trans. Storage 19, 1, Article 3 (February 2023), 35 pages. https://doi.org/10.1145/3568425 (NSDI: https://www.usenix.org/conference/nsdi19/presentation/yang)
-  * V. Tarasov, S. Kumar, J. Ma, D. Hildebrand, A. Povzner, G. Kuenning, and E. Zadok. 2012. Extracting flexible, replayable models from large block traces. In Proceedings of the 10th USENIX conference on File and Storage Technologies (FAST'12). USENIX Association, USA, 22. https://static.usenix.org/events/fast12/tech/full_papers/Tarasov.pdf 
+  * V. Tarasov, S. Kumar, J. Ma, D. Hildebrand, A. Povzner, G. Kuenning, and E. Zadok. 2012. Extracting flexible, replayable models from large block traces. In Proceedings of the 10th USENIX conference on File and Storage Technologies (FAST'12). USENIX Association, USA, 22. https://static.usenix.org/events/fast12/tech/full_papers/Tarasov.pdf
+  * COSBench: cloud object storage benchmark. In Proceedings of the 4th ACM/SPEC International Conference on Performance Engineering (ICPE '13). Association for Computing Machinery, New York, NY, USA, 199–210. https://doi.org/10.1145/2479871.2479900
     
 ## 20. RAID, Compression, De-duplication 
+  * Alleviating garbage collection interference through spatial separation in all flash arrays https://www.usenix.org/conference/atc19/presentation/kim-jaeho
   * Ziyang Jiao and Bryan S. Kim. 2024. Asymmetric RAID: Rethinking RAID for SSD Heterogeneity. In Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '24). Association for Computing Machinery, New York, NY, USA, 101–107. https://doi.org/10.1145/3655038.3665952
   * FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays, https://www.usenix.org/conference/fast21/presentation/jiang (FAST 2021)
   * StRAID: Stripe-threaded Architecture for Parity-based RAIDs with Ultra-fast SSDs, https://www.usenix.org/conference/atc22/presentation/wang-shucheng (USENIX 2022)
@@ -357,6 +406,9 @@ month = {May}
   * Mohammadamin Ajdari, Patrick Raaf, Mostafa Kishani, Reza Salkhordeh, Hossein Asadi, and André Brinkmann. An Enterprise-Grade Open-Source Data Reduction Architecture for All-Flash Storage Systems. Proc. {ACM} Meas. Anal. Comput. Syst. 2022. https://dl.acm.org/doi/10.1145/3489048.3530963
 
 ## 21. ML and (Storage) Systems 
+  * Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?, https://dl.acm.org/doi/10.1145/3655038.3665954 
+  * ServerlessLLM: Low-Latency Serverless Inference for Large Language Models, https://www.usenix.org/system/files/osdi24-fu.pdf 
+  * Understanding data storage and ingestion for large-scale deep recommendation model training: industrial product. In Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for Computing Machinery, New York, NY, USA, 1042–1057. https://doi.org/10.1145/3470496.3533044 
   * R. Macedo et al., "The Case for Storage Optimization Decoupling in Deep Learning Frameworks," 2021 IEEE International Conference on Cluster Computing (CLUSTER), Portland, OR, USA, 2021, pp. 649-656, doi: 10.1109/Cluster48925.2021.00096. https://ieeexplore.ieee.org/document/9556106
   * LLM in a flash: Efficient Large Language Model Inference with Limited Memory, https://arxiv.org/abs/2312.11514.
   * Adding NVMe SSDs to Enable and Accelerate 100B Model Fine-tuning on a Single GPU, https://arxiv.org/pdf/2403.06504 
@@ -369,7 +421,8 @@ month = {May}
   * PipeDream: generalized pipeline parallelism for DNN training. In Proceedings of the 27th ACM Symposium on Operating Systems Principles (SOSP '19). Association for Computing Machinery, New York, NY, USA, 1–15. https://doi.org/10.1145/3341301.3359646
   * PyTorch distributed: experiences on accelerating data parallel training. Proc. VLDB Endow. 13, 12 (August 2020), 3005–3018. https://doi.org/10.14778/3415478.3415530
   * Analyzing and mitigating data stalls in DNN training. Proc. VLDB Endow. 14, 5 (January 2021), 771–784. https://doi.org/10.14778/3446095.3446100
-  * https://proceedings.mlsys.org/ 
+  * https://proceedings.mlsys.org/
+  * Fire-Flyer AI-HPC: A Cost-Effective Software-Hardware Co-Design for Deep Learning https://dl.acm.org/doi/10.1109/SC41406.2024.00089
 
 ## 22. A selection of storage related surveys 
   * 2024 - Survey of vector database management systems. The VLDB Journal 33, 5 (Sep 2024), 1591–1615. https://doi.org/10.1007/s00778-024-00864-x 
@@ -381,6 +434,24 @@ month = {May}
   * 2020 - Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
   * 2014 - A survey of address translation technologies for flash memories, https://dl.acm.org/doi/10.1145/2512961 
 
-## 23. Unclassified
 
-  * Rohan Basu Roy and Devesh Tiwari. StarShip: Mitigating I/O Bottlenecks in Serverless Computing for Scientific Workflows. Proc. {ACM} Meas. Anal. Comput. Syst. 2024. https://dl.acm.org/doi/10.1145/3639028
+## 23. Company-specific stacks 
+Biased towards AI/ML (duh!)  
+
+  ### 23.1 Alibaba 
+  * Optimizing NVMe Storage for Large-Scale Deployment: Key Technologies and Strategies in Alibaba Cloud, in IEEE Micro, vol. 44, no. 5, pp. 47-56, Sept.-Oct. 2024, doi: 10.1109/MM.2024.3426514. https://ieeexplore.ieee.org/document/10604820 
+
+  ### 23.2 Baidu 
+  * CFS: Scaling Metadata Service for Distributed File System via Pruned Scope of Critical Sections. In Proceedings of the Eighteenth European Conference on Computer Systems (EuroSys '23). Association for Computing Machinery, New York, NY, USA, 331–346. https://doi.org/10.1145/3552326.3587443
+  
+  ### 23.3 Meta 
+  * Facebook's Tectonic Filesystem: Efficiency from Exascale, https://www.usenix.org/conference/fast21/presentation/pan 
+  * Tectonic-Shift: A Composite Storage Fabric for Large-Scale ML Training, https://www.usenix.org/conference/atc23/presentation/zhao 
+  * 2024, Training LlaMa - A Storage Perspective | Sumit Gupta & Robin Battey, https://www.facebook.com/atscaleevents/videos/training-llama-a-storage-perspective-sumit-gupta-robin-battey/1146039320066497/ 
+  * 2024, Building Meta’s GenAI Infrastructure, https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/ 
+  * 2022, Scaling data ingestion for machine learning training at Meta, https://engineering.fb.com/2022/09/19/ml-applications/data-ingestion-machine-learning-training-meta/ 
+  * The Llama 3 Herd of Models, https://arxiv.org/pdf/2407.21783, 2024.    
+
+## 24. Unclassified
+
+ * Rohan Basu Roy and Devesh Tiwari. StarShip: Mitigating I/O Bottlenecks in Serverless Computing for Scientific Workflows. Proc. {ACM} Meas. Anal. Comput. Syst. 2024. https://dl.acm.org/doi/10.1145/3639028
