@@ -89,8 +89,11 @@ month = {May}
   * S. Jiang, Lei Zhang, XinHao Yuan, Hao Hu and Yu Chen, "S-FTL: An efficient address translation for flash memory by exploiting spatial locality," 2011 IEEE 27th Symposium on Mass Storage Systems and Technologies (MSST), Denver, CO, 2011, pp. 1-12, doi: 10.1109/MSST.2011.5937215.
   * You Zhou, Fei Wu, Ping Huang, Xubin He, Changsheng Xie, and Jian Zhou. 2015. An efficient page-level FTL to optimize address translation in flash memory. In Proceedings of the Tenth European Conference on Computer Systems (EuroSys '15). Association for Computing Machinery, New York, NY, USA, Article 12, 1–16. https://doi.org/10.1145/2741948.2741949
   * LearnedFTL: A Learning-Based Page-Level FTL for Reducing Double Reads in Flash-Based SSDs, https://doi.ieeecomputersociety.org/10.1109/HPCA57654.2024.00054  
-  * Rino Micheloni, Alessia Marelli, and Kam Eshghi. 2012. Inside Solid State Drives (SSDs). Springer Publishing Company, Incorporated. https://dl.acm.org/doi/10.5555/2412028
+  * Rino Micheloni, Alessia Marelli, and Kam Eshghi. 2012. Inside Solid State Drives (SSDs). Springer Publishing Company, Incorporated. https://dl.acm.org/doi/10.5555/2412028 
+  * Tomer Lange, Joseph (Seffi) Naor, and Gala Yadgar. Offline and Online Algorithms for SSD Management. Commun. ACM. 2021. https://dl.acm.org/doi/10.1145/3491045
+  * Chun-Yi Liu, Jagadish Kotra, Myoungsoo Jung, Mahmut Taylan Kandemir. Centaur: A Novel Architecture for Reliable, Low-Wear, High-Density 3D NAND Storage. Proc. {ACM} Meas. Anal. Comput. Syst. 2020. https://dl.acm.org/doi/10.1145/3392146
   * FlexECC: Partially Relaxing ECC of MLC SSD for Better Cache Performance https://www.usenix.org/conference/atc14/technical-sessions/presentation/huang 
+
 
 ## 4. NVMe, Flash, PMEM, SSD File Systems 
   * Ziggurat: A Tiered File System for Non-Volatile Main Memories and Disks, https://www.usenix.org/conference/fast19/presentation/zheng
@@ -400,7 +403,7 @@ month = {May}
   * FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays, https://www.usenix.org/conference/fast21/presentation/jiang (FAST 2021)
   * StRAID: Stripe-threaded Architecture for Parity-based RAIDs with Ultra-fast SSDs, https://www.usenix.org/conference/atc22/presentation/wang-shucheng (USENIX 2022)
   * Shushu Yi, Yanning Yang, Yunxiao Tang, Zixuan Zhou, Junzhe Li, Chen Yue, Myoungsoo Jung, and Jie Zhang. 2022. ScalaRAID: optimizing linux software RAID system for next-generation storage. In Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage '22). Association for Computing Machinery, New York, NY, USA, 119–125. https://doi.org/10.1145/3538643.3539740
-  * 
+  * Mohammadamin Ajdari, Patrick Raaf, Mostafa Kishani, Reza Salkhordeh, Hossein Asadi, and André Brinkmann. An Enterprise-Grade Open-Source Data Reduction Architecture for All-Flash Storage Systems. Proc. {ACM} Meas. Anal. Comput. Syst. 2022. https://dl.acm.org/doi/10.1145/3489048.3530963
 
 ## 21. ML and (Storage) Systems 
   * Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?, https://dl.acm.org/doi/10.1145/3655038.3665954 
@@ -429,7 +432,8 @@ month = {May}
   * 2022 - A Survey of Storage Systems in the RDMA Era, https://dl.acm.org/doi/10.1109/TPDS.2022.3188656.
   * 2022 - Survey of Distributed File System Design Choices, https://dl.acm.org/doi/pdf/10.1145/3465405
   * 2020 - Indexing in flash storage devices: a survey on challenges, current approaches, and future trends. <i>The VLDB Journal</i> 29, 1 (Jan 2020), 273–311. https://doi.org/10.1007/s00778-019-00559-8 https://link.springer.com/content/pdf/10.1007/s00778-019-00559-8.pdf  
-  * 2014 - A survey of address translation technologies for flash memories, https://dl.acm.org/doi/10.1145/2512961
+  * 2014 - A survey of address translation technologies for flash memories, https://dl.acm.org/doi/10.1145/2512961 
+
 
 ## 23. Company-specific stacks 
 Biased towards AI/ML (duh!)  
@@ -447,3 +451,7 @@ Biased towards AI/ML (duh!)
   * 2024, Building Meta’s GenAI Infrastructure, https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/ 
   * 2022, Scaling data ingestion for machine learning training at Meta, https://engineering.fb.com/2022/09/19/ml-applications/data-ingestion-machine-learning-training-meta/ 
   * The Llama 3 Herd of Models, https://arxiv.org/pdf/2407.21783, 2024.    
+
+## 24. Unclassified
+
+ * Rohan Basu Roy and Devesh Tiwari. StarShip: Mitigating I/O Bottlenecks in Serverless Computing for Scientific Workflows. Proc. {ACM} Meas. Anal. Comput. Syst. 2024. https://dl.acm.org/doi/10.1145/3639028
