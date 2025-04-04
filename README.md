@@ -149,7 +149,10 @@ month = {May}
     > FileBench, RocksDB, SQLite, MySQL
   * Characterizing the performance of intel optane persistent memory: a close look at its on-DIMM buffering. In Proceedings of the Seventeenth European Conference on Computer Systems (EuroSys '22). Association for Computing Machinery, New York, NY, USA, 488–505. https://doi.org/10.1145/3492321.3519556
   * "CFFS: A Persistent Memory File System for Contiguous File Allocation With Fine-Grained Metadata," in IEEE Access, vol. 10, pp. 91678-91698, 2022, doi: 10.1109/ACCESS.2022.3202532 https://ieeexplore.ieee.org/abstract/document/9869672 
-
+  * ByteFS: System Support for (CXL-based) Memory-Semantic Solid-State Drives, Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’25). 
+  * M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems, Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’25).
+  * Systematic CXL Memory Characterization and Performance Analysis at Scale, Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’25). 
+  * EDM: An Ultra-Low Latency Ethernet Fabric for Memory Disaggregation, Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’25).
 
 ## 7. Networked/distributed Flash/NVMoF/Storage Disaggregation   
   * Towards Resource Efficiency: Practical Insights into Large-Scale Spark Workloads at ByteDance. PVLDB, 17(12): 3759-3771, 2024. doi:10.14778/3685800.3685804
@@ -162,6 +165,7 @@ month = {May}
   * NVMe-oAF: Towards Adaptive NVMe-oF for IO-Intensive Workloads on HPC Cloud. In Proceedings of the 31st International Symposium on High-Performance Parallel and Distributed Computing (HPDC '22). Association for Computing Machinery, New York, NY, USA, 56–70. https://doi.org/10.1145/3502181.3531476
   * Performance Characterization of NVMe-over-Fabrics Storage Disaggregation. ACM Trans. Storage 14, 4, Article 31 (November 2018), 18 pages. https://doi.org/10.1145/3239563
   * Optimizing the Ceph Distributed File System for High Performance Computing, http://csl.snu.ac.kr/papers/pdp19.pdf 
+  * FleetIO: Managing Multi-Tenant Cloud Storage with Multi-Agent Reinforcement Learning. Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’25). http://snir.cs.illinois.edu/listed/fleetIO.pdf
 
 
 ## 8. Programmable storage, acceleration, offloading, computational storage, workload-specific storage
@@ -279,7 +283,7 @@ month = {May}
   * Storage on your smartphone uses more energy than you think. In Proceedings of the 9th USENIX Conference on Hot Topics in Storage and File Systems, HotStorage’17, page 9, USA, 2017. USENIX Association.
   * Hamming Tree: The Case for Energy-Aware Indexing for NVMs. In Proceedings of the ACM on Management of Data. SIGMOD'2023. ACM New York, NY, USA, 2023.
   * Treehouse: A Case For Carbon-Aware Datacenter Software. SIGENERGY Energy Inform. Rev. 3, 3 (October 2023), 64–70. https://doi.org/10.1145/3630614.3630626 
-
+  * Characterizing the Use of DVFS for HPC I/O Optimization: A Microbenchmarking Approach. Proceedings of the 5th Workshop on Challenges and Opportunities of Efficient and Performant Storage Systems. 2025.
 
 ## 15. Database, Timeseries, VectorDB, Lookup, Indexes on Storage  
   * SingleStore-V: An Integrated Vector Database System in SingleStore, VLDB 2024, https://doi.org/10.14778/3685800.3685805 
@@ -348,6 +352,7 @@ month = {May}
 * SplitZNS: Towards an Efficient LSM-Tree on Zoned Namespace SSDs. ACM Trans. Archit. Code Optim. 20, 3, Article 45 (September 2023), 26 pages. https://doi.org/10.1145/3608476 
 * Chen PX., Seo D., Sung C., Park J., Lee M., Li H., Bjørling M., Dutt N. ZoneTrace: A Zone Monitoring Tool for F2FS on ZNS SSDs. ACM Transactions on Design Automation of Electronic Systems. 2024. https://dl.acm.org/doi/abs/10.1145/3656172
 * ZMS: Zone Abstraction for Mobile Flash Storage, https://www.usenix.org/system/files/atc24-hwang.pdf 
+* ZRAID: Leveraging Zone Random Write Area (ZRWA) for Alleviating Partial Parity Tax in ZNS RAID, Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’25). https://dl.acm.org/doi/abs/10.1145/3669940.3707248.
 
 ### 17.2 Other interfaces
   * The Design and Implementation of a Capacity-Variant Storage System, Ziyang Jiao and Xiangqun Zhang, Syracuse University; Hojin Shin and Jongmoo Choi, Dankook University; Bryan S. Kim, Syracuse University, https://www.usenix.org/conference/fast24/presentation/jiao 
@@ -359,6 +364,7 @@ month = {May}
   
 ## 17.3 FDP 
   * J. Park, H. Kim, J. Ha, H. Jung and H. Eom, "FDPVirt: Flexible Data Placement SSD Emulator," 2024 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Kobe, Japan, 2024, pp. 198-199, doi: 10.1109/CLUSTERWorkshops61563.2024.00057. 
+  * Towards Efficient Flash Caches with Emerging NVMe Flexible Data Placement SSDs. EuroSys'25.
  
 ## 18. SNIA/NVMe weblinks   
   * @scale 2024, Training LlaMa - A Storage Perspective | Sumit Gupta & Robin Battey, https://www.facebook.com/atscaleevents/videos/training-llama-a-storage-perspective-sumit-gupta-robin-battey/1146039320066497/
@@ -420,6 +426,8 @@ month = {May}
   * Analyzing and mitigating data stalls in DNN training. Proc. VLDB Endow. 14, 5 (January 2021), 771–784. https://doi.org/10.14778/3446095.3446100
   * https://proceedings.mlsys.org/
   * Fire-Flyer AI-HPC: A Cost-Effective Software-Hardware Co-Design for Deep Learning https://dl.acm.org/doi/10.1109/SC41406.2024.00089
+  * MaxEmbed: Maximizing SSD bandwidth utilization for huge embedding models serving, Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’25).
+  * Accelerating Retrieval-Augmented Generation, Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’25).
 
 ## 22. A selection of storage related surveys 
   * 2024 - Survey of vector database management systems. The VLDB Journal 33, 5 (Sep 2024), 1591–1615. https://doi.org/10.1007/s00778-024-00864-x 
