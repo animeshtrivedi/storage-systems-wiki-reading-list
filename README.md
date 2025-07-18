@@ -196,6 +196,7 @@ month = {May}
   *  Analyzing, modeling, and provisioning QoS for NVMe ssds: https://ieeexplore.ieee.org/abstract/document/8603171/
   *  Spdk vhost-nvme (user-space): Accelerating i/os in virtual machines on nvme ssds via user space vhost target: https://ieeexplore.ieee.org/abstract/document/8567374/
   *  FlashBlox: https://www.usenix.org/system/files/conference/fast17/fast17_huang.pdf
+  * Lixiang Luo, I-Hsin Chung, Seetharami Seelam, Ming-hung Chen, and Yun Joon Soh. 2022. NVMe Virtualization for Cloud Virtual Machines. In Proceedings of the 2022 ACM/SPEC on International Conference on Performance Engineering (ICPE '22). Association for Computing Machinery, New York, NY, USA, 37–46. https://doi.org/10.1145/3489525.3511688 
 
 ## 10. Flash I/O Scheduling and quality-of-service/multi-tenancy 
   * Huaicheng Li, Martin L. Putra, Ronald Shi, Xing Lin, Gregory R. Ganger, and Haryadi S. Gunawi. 2021. IODA: A Host/Device Co-Design for Strong Predictability Contract on Modern Flash Storage. In Proceedings of the ACM SIGOPS 28th Symposium on Operating Systems Principles (SOSP '21). Association for Computing Machinery, New York, NY, USA, 263–279. https://doi.org/10.1145/3477132.3483573
@@ -421,6 +422,7 @@ month = {May}
   * https://proceedings.mlsys.org/ 
 
 ## 22. A selection of storage related surveys 
+  * 2025 - A Survey on Flash-Memory Storage Systems: A Host-Side Perspective. ACM Trans. Storage 21, 3, Article 24 (August 2025), 59 pages. https://doi.org/10.1145/3723167
   * 2024 - Survey of vector database management systems. The VLDB Journal 33, 5 (Sep 2024), 1591–1615. https://doi.org/10.1007/s00778-024-00864-x 
   * 2023 -  A Survey on the Integration of NAND Flash Storage in the Design of File Systems and the Host Storage Software Stack, Nick Tehrany, Krijn Doekemeijer, Animesh Trivedi, https://arxiv.org/abs/2307.11866 
   * 2022 - Krijn Doekemeijer, Animesh Trivedi - Key-Value Stores on Flash Storage Devices: A Survey, https://arxiv.org/abs/2205.07975, May 2022.
