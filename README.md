@@ -435,6 +435,7 @@ month = {May}
   * Accelerating Retrieval-Augmented Generation, Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’25). https://arxiv.org/abs/2412.15246
 
 ## 22. A selection of storage related surveys 
+  *   * Xiangqun Zhang, Janki Bhimani, Shuyi Pei, Eunji Lee, Sungjin Lee, Yoon Jae Seong, Eui Jin Kim, Changho Choi, Eyee Hyun Nam, Jongmoo Choi, and Bryan S. Kim. 2025. Storage Abstractions for SSDs: The Past, Present, and Future. ACM Trans. Storage 21, 1, Article 2 (February 2025), 44 pages. https://doi.org/10.1145/3708992
   * 2025 - A Survey on Flash-Memory Storage Systems: A Host-Side Perspective. ACM Trans. Storage 21, 3, Article 24 (August 2025), 59 pages. https://doi.org/10.1145/3723167
   * 2024 - Survey of vector database management systems. The VLDB Journal 33, 5 (Sep 2024), 1591–1615. https://doi.org/10.1007/s00778-024-00864-x 
   * 2023 -  A Survey on the Integration of NAND Flash Storage in the Design of File Systems and the Host Storage Software Stack, Nick Tehrany, Krijn Doekemeijer, Animesh Trivedi, https://arxiv.org/abs/2307.11866 
